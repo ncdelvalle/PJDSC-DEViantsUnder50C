@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # === Load NCR GeoJSON ===
-ncr_path = "ncr_land_admin_border.geojson"
+ncr_path = "raw_data/ncr_land_admin_border.geojson"
 gdf = gpd.read_file(ncr_path)
 
 # Merge MultiPolygon into one shape if needed
@@ -44,7 +44,7 @@ gdf_points["Latitude"] = gdf_points.geometry.y.round(4)
 gdf_points["Longitude"] = gdf_points.geometry.x.round(4)
 
 # === Save to CSV ===
-output_csv = "ncr_sample_points.csv"
+output_csv = "processed_data/ncr_sample_points.csv"
 gdf_points[["Point_ID", "Latitude", "Longitude"]].to_csv(output_csv, index=False)
 
 print(f"✅ Saved {len(gdf_points)} interior points to {output_csv}")
