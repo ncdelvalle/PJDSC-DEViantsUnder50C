@@ -15,13 +15,14 @@ Output:
     Columns: point_id, latitude, longitude, date, precipitation_total
 """
 
+import os
 import pandas as pd
 import requests
 import time
 from datetime import datetime, timedelta
 
 # === CONFIGURATION ===
-API_KEY = "9837fccde8b5f9bac83a908b1edaa4b2"
+API_KEY =  os.getenv("OWM_API_KEY")
 INPUT_CSV = "classified_points.csv"
 OUTPUT_CSV = "precipitation_only.csv"
 
