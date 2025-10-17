@@ -1,0 +1,6 @@
+Indicator,Entropy,Weight
+temp_mean,0.9857,0.0624
+humidity_mean,0.9791,0.0914
+precipitation_total,0.8825,0.5129
+wind_speed_max,0.9785,0.0939
+aqi_mean,0.9452,0.2394
