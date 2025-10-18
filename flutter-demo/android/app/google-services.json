@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "512795377903",
+    "project_id": "devunder50c",
+    "storage_bucket": "devunder50c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512795377903:android:8c7c51a762f0cc63c4db1a",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9n3K6GEu_XgnUySvoM9dTT4jU04iMydc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512795377903:android:c2de7fbd957871f3c4db1a",
+        "android_client_info": {
+          "package_name": "com.example.pjdsc_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9n3K6GEu_XgnUySvoM9dTT4jU04iMydc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
