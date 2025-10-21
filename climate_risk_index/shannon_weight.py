@@ -7,6 +7,7 @@ using merged daily summary and air quality datasets.
 Now includes:
     - Outlier handling via Winsorization (caps extreme values)
     - Clean normalization and stable entropy computation
+    - Prints min & max for each indicator before normalization
 
 Input:
     - ncr_1to6_25_A.csv
@@ -24,6 +25,7 @@ Indicators:
 Output:
     - entropy_weights.csv (weights per variable)
     - normalized merged dataset preview
+    - indicator_minmax.csv (optional)
 """
 
 import pandas as pd
@@ -31,9 +33,10 @@ import numpy as np
 from scipy.stats.mstats import winsorize
 
 # === CONFIGURATION ===
-SUMMARY_FILES = ["ncr_1to6_25_A.csv", "ncr_7to12_24_A.csv"]
-AIR_FILES = ["ncr_1to6_25_B.csv", "ncr_7to12_24_B.csv"]
+SUMMARY_FILES = ["raw_data/ncr_1to6_25_A.csv", "raw_data/ncr_7to12_24_A.csv"]
+AIR_FILES = ["raw_data/ncr_1to6_25_B.csv", "raw_data/ncr_7to12_24_B.csv"]
 OUTPUT_FILE = "processed_data/entropy_weights.csv"
+MINMAX_FILE = "processed_data/indicator_minmax.csv"
 
 # === LOAD & CONCATENATE DATA ===
 print("📂 Loading input CSVs...")
@@ -63,17 +66,26 @@ selected = selected.round(2)
 selected = selected.dropna()  # ensure no NaN remains
 
 # === OUTLIER HANDLING (Winsorization) ===
-# Caps extreme values at 1st and 99th percentile for each column
 print("\n⚙️ Applying Winsorization to reduce outlier influence...")
 for col in selected.columns:
     selected[col] = winsorize(selected[col], limits=[0.01, 0.01])
 print("✅ Winsorization complete.")
 
 # === OPTIONAL TRANSFORM (handle skewed precipitation) ===
-# Apply log transform if precipitation is highly skewed
 if selected["precipitation_total"].skew() > 1:
     selected["precipitation_total"] = np.log1p(selected["precipitation_total"])
     print("📉 Applied log transform to precipitation_total (right-skew detected).")
+
+# === PRINT MIN & MAX FOR EACH INDICATOR ===
+print("\n📏 Indicator Min & Max (after cleaning and outlier handling):")
+minmax_df = pd.DataFrame({
+    "Indicator": selected.columns,
+    "Min": selected.min().round(4),
+    "Max": selected.max().round(4)
+})
+print(minmax_df)
+minmax_df.to_csv(MINMAX_FILE, index=False)
+print(f"✅ Min–Max values saved to {MINMAX_FILE}")
 
 # === NORMALIZATION (Min–Max scaling) ===
 normalized = (selected - selected.min()) / (selected.max() - selected.min())
@@ -106,5 +118,5 @@ print(weights_df)
 
 # === OPTIONAL: Weighted Score Preview ===
 df["Composite_Score"] = (normalized * weights).sum(axis=1)
-print("\n🌍 Sample Composite Scores:")
+print("\n🌍 Sample Composite Scores (rows 750–764):")
 print(df.loc[750:764, ["latitude", "longitude", "date", "Composite_Score"]])

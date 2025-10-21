@@ -1,0 +1,6 @@
+Indicator,Min,Max
+temp_mean,24.98,31.5
+humidity_mean,56.0,96.0
+precipitation_total,0.0,4.488
+wind_speed_max,2.29,16.09
+aqi_mean,1.0,4.72
