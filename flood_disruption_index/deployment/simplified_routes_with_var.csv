@@ -1,0 +1,125 @@
+route_name,distance_km,duration_min,lat,lon,order,Var
+via Alternate Route 1,4.59,13.2,14.65728,121.064451,1,0
+via Alternate Route 1,4.59,13.2,14.657295,121.064335,2,0
+via Alternate Route 1,4.59,13.2,14.657383,121.064283,3,0
+via Alternate Route 1,4.59,13.2,14.657643,121.064059,4,0
+via Alternate Route 1,4.59,13.2,14.657676,121.063653,5,0
+via Alternate Route 1,4.59,13.2,14.65769,121.062654,6,0
+via Alternate Route 1,4.59,13.2,14.65769,121.062361,7,0
+via Alternate Route 1,4.59,13.2,14.656823,121.062352,8,0
+via Alternate Route 1,4.59,13.2,14.65509,121.062335,9,0
+via Alternate Route 1,4.59,13.2,14.654954,121.062147,10,0
+via Alternate Route 1,4.59,13.2,14.654948,121.061796,11,0
+via Alternate Route 1,4.59,13.2,14.654918,121.059898,12,2.0
+via Alternate Route 1,4.59,13.2,14.654892,121.058543,13,1.0
+via Alternate Route 1,4.59,13.2,14.654732,121.058423,14,0
+via Alternate Route 1,4.59,13.2,14.653938,121.058581,15,1.0
+via Alternate Route 1,4.59,13.2,14.653209,121.058725,16,1.0
+via Alternate Route 1,4.59,13.2,14.652257,121.058914,17,0
+via Alternate Route 1,4.59,13.2,14.65177,121.059011,18,0
+via Alternate Route 1,4.59,13.2,14.651074,121.059148,19,2.0
+via Alternate Route 1,4.59,13.2,14.647808,121.059818,20,0
+via Alternate Route 1,4.59,13.2,14.647397,121.060085,21,0
+via Alternate Route 1,4.59,13.2,14.647194,121.060401,22,0
+via Alternate Route 1,4.59,13.2,14.647141,121.060654,23,0
+via Alternate Route 1,4.59,13.2,14.64713,121.060837,24,0
+via Alternate Route 1,4.59,13.2,14.647131,121.061221,25,0
+via Alternate Route 1,4.59,13.2,14.647171,121.061596,26,0
+via Alternate Route 1,4.59,13.2,14.647355,121.062376,27,0
+via Alternate Route 1,4.59,13.2,14.647657,121.063654,28,0
+via Alternate Route 1,4.59,13.2,14.6477,121.064087,29,0
+via Alternate Route 1,4.59,13.2,14.64768,121.064384,30,0
+via Alternate Route 1,4.59,13.2,14.647683,121.064654,31,0
+via Alternate Route 1,4.59,13.2,14.647746,121.065165,32,0
+via Alternate Route 1,4.59,13.2,14.647802,121.065388,33,0
+via Alternate Route 1,4.59,13.2,14.647959,121.065781,34,0
+via Alternate Route 1,4.59,13.2,14.647981,121.065921,35,0
+via Alternate Route 1,4.59,13.2,14.647972,121.066162,36,0
+via Alternate Route 1,4.59,13.2,14.647704,121.066899,37,0
+via Alternate Route 1,4.59,13.2,14.647507,121.06732,38,0
+via Alternate Route 1,4.59,13.2,14.647226,121.067938,39,0
+via Alternate Route 1,4.59,13.2,14.647208,121.068244,40,0
+via Alternate Route 1,4.59,13.2,14.647203,121.068968,41,0
+via Alternate Route 1,4.59,13.2,14.647203,121.069846,42,0
+via Alternate Route 1,4.59,13.2,14.647301,121.070659,43,1.0
+via Alternate Route 1,4.59,13.2,14.647441,121.071134,44,3.0
+via Alternate Route 1,4.59,13.2,14.647727,121.07158,45,0
+via Alternate Route 1,4.59,13.2,14.648047,121.072102,46,0
+via Alternate Route 1,4.59,13.2,14.648182,121.07243,47,0
+via Alternate Route 1,4.59,13.2,14.648261,121.072923,48,0
+via Alternate Route 1,4.59,13.2,14.648238,121.07347,49,0
+via Alternate Route 1,4.59,13.2,14.648209,121.074185,50,0
+via Alternate Route 1,4.59,13.2,14.647654,121.074295,51,0
+via Alternate Route 1,4.59,13.2,14.646925,121.074277,52,0
+via Alternate Route 1,4.59,13.2,14.646603,121.074273,53,0
+via Alternate Route 1,4.59,13.2,14.645899,121.074354,54,0
+via Alternate Route 1,4.59,13.2,14.644442,121.07454,55,1.0
+via Alternate Route 1,4.59,13.2,14.643438,121.074629,56,1.0
+via Alternate Route 1,4.59,13.2,14.642238,121.074584,57,1.0
+via Alternate Route 1,4.59,13.2,14.641557,121.074552,58,2.0
+via Alternate Route 1,4.59,13.2,14.640974,121.074533,59,1.0
+via Alternate Route 1,4.59,13.2,14.640534,121.074649,60,0
+via Alternate Route 1,4.59,13.2,14.640528,121.074795,61,0
+via Alternate Route 1,4.59,13.2,14.640526,121.075383,62,0
+via Alternate Route 1,4.59,13.2,14.640639,121.075692,63,0
+via Alternate Route 1,4.59,13.2,14.640927,121.076187,64,0
+via Alternate Route 1,4.59,13.2,14.641108,121.076713,65,0
+via Alternate Route 1,4.59,13.2,14.640998,121.077131,66,0
+via Lakandula Street,3.88,13.6,14.65728,121.064451,1,0
+via Lakandula Street,3.88,13.6,14.657295,121.064335,2,0
+via Lakandula Street,3.88,13.6,14.657383,121.064283,3,0
+via Lakandula Street,3.88,13.6,14.657643,121.064059,4,0
+via Lakandula Street,3.88,13.6,14.657676,121.063653,5,0
+via Lakandula Street,3.88,13.6,14.65769,121.062654,6,0
+via Lakandula Street,3.88,13.6,14.65769,121.062361,7,0
+via Lakandula Street,3.88,13.6,14.656823,121.062352,8,0
+via Lakandula Street,3.88,13.6,14.65509,121.062335,9,0
+via Lakandula Street,3.88,13.6,14.654798,121.062333,10,0
+via Lakandula Street,3.88,13.6,14.654423,121.062333,11,0
+via Lakandula Street,3.88,13.6,14.652964,121.062331,12,0
+via Lakandula Street,3.88,13.6,14.653014,121.064495,13,0
+via Lakandula Street,3.88,13.6,14.652679,121.065766,14,0
+via Lakandula Street,3.88,13.6,14.652524,121.065956,15,0
+via Lakandula Street,3.88,13.6,14.651869,121.066891,16,0
+via Lakandula Street,3.88,13.6,14.651801,121.067004,17,0
+via Lakandula Street,3.88,13.6,14.652049,121.067311,18,0
+via Lakandula Street,3.88,13.6,14.652303,121.067769,19,0
+via Lakandula Street,3.88,13.6,14.652381,121.067994,20,0
+via Lakandula Street,3.88,13.6,14.652485,121.068556,21,0
+via Lakandula Street,3.88,13.6,14.652434,121.068639,22,0
+via Lakandula Street,3.88,13.6,14.651818,121.068544,23,0
+via Lakandula Street,3.88,13.6,14.651153,121.068426,24,0
+via Lakandula Street,3.88,13.6,14.650737,121.068409,25,0
+via Lakandula Street,3.88,13.6,14.650329,121.068459,26,0
+via Lakandula Street,3.88,13.6,14.650044,121.068541,27,0
+via Lakandula Street,3.88,13.6,14.649751,121.068655,28,0
+via Lakandula Street,3.88,13.6,14.649388,121.068801,29,0
+via Lakandula Street,3.88,13.6,14.648978,121.068959,30,0
+via Lakandula Street,3.88,13.6,14.64884,121.068976,31,0
+via Lakandula Street,3.88,13.6,14.648391,121.068975,32,0
+via Lakandula Street,3.88,13.6,14.647271,121.068967,33,0
+via Lakandula Street,3.88,13.6,14.647194,121.069611,34,0
+via Lakandula Street,3.88,13.6,14.647278,121.070518,35,1.0
+via Lakandula Street,3.88,13.6,14.647393,121.071025,36,2.0
+via Lakandula Street,3.88,13.6,14.647615,121.07141,37,0
+via Lakandula Street,3.88,13.6,14.647981,121.071983,38,0
+via Lakandula Street,3.88,13.6,14.64816,121.072362,39,0
+via Lakandula Street,3.88,13.6,14.648247,121.072742,40,0
+via Lakandula Street,3.88,13.6,14.648231,121.07326,41,0
+via Lakandula Street,3.88,13.6,14.648246,121.074072,42,0
+via Lakandula Street,3.88,13.6,14.648054,121.074303,43,0
+via Lakandula Street,3.88,13.6,14.647087,121.074285,44,0
+via Lakandula Street,3.88,13.6,14.646793,121.074275,45,0
+via Lakandula Street,3.88,13.6,14.646147,121.074321,46,0
+via Lakandula Street,3.88,13.6,14.644985,121.074472,47,0
+via Lakandula Street,3.88,13.6,14.643992,121.074595,48,2.0
+via Lakandula Street,3.88,13.6,14.642448,121.074593,49,1.0
+via Lakandula Street,3.88,13.6,14.641606,121.074556,50,2.0
+via Lakandula Street,3.88,13.6,14.641185,121.074538,51,1.0
+via Lakandula Street,3.88,13.6,14.640539,121.074514,52,0
+via Lakandula Street,3.88,13.6,14.640531,121.074759,53,0
+via Lakandula Street,3.88,13.6,14.640524,121.075247,54,0
+via Lakandula Street,3.88,13.6,14.640606,121.075619,55,0
+via Lakandula Street,3.88,13.6,14.640902,121.076145,56,0
+via Lakandula Street,3.88,13.6,14.641103,121.07655,57,0
+via Lakandula Street,3.88,13.6,14.641013,121.077095,58,0

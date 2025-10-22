@@ -1,0 +1,19 @@
+route_name,distance_km,duration_min,lat,lon,order,Var
+via Alternate Route 1,4.59,13.2,14.654918,121.059898,12,2.0
+via Alternate Route 1,4.59,13.2,14.654892,121.058543,13,1.0
+via Alternate Route 1,4.59,13.2,14.653938,121.058581,15,1.0
+via Alternate Route 1,4.59,13.2,14.653209,121.058725,16,1.0
+via Alternate Route 1,4.59,13.2,14.651074,121.059148,19,2.0
+via Alternate Route 1,4.59,13.2,14.647301,121.070659,43,1.0
+via Alternate Route 1,4.59,13.2,14.647441,121.071134,44,3.0
+via Alternate Route 1,4.59,13.2,14.644442,121.07454,55,1.0
+via Alternate Route 1,4.59,13.2,14.643438,121.074629,56,1.0
+via Alternate Route 1,4.59,13.2,14.642238,121.074584,57,1.0
+via Alternate Route 1,4.59,13.2,14.641557,121.074552,58,2.0
+via Alternate Route 1,4.59,13.2,14.640974,121.074533,59,1.0
+via Lakandula Street,3.88,13.6,14.647278,121.070518,35,1.0
+via Lakandula Street,3.88,13.6,14.647393,121.071025,36,2.0
+via Lakandula Street,3.88,13.6,14.643992,121.074595,48,2.0
+via Lakandula Street,3.88,13.6,14.642448,121.074593,49,1.0
+via Lakandula Street,3.88,13.6,14.641606,121.074556,50,2.0
+via Lakandula Street,3.88,13.6,14.641185,121.074538,51,1.0

@@ -1,106 +1,104 @@
-import requests
 import csv
 import math
+import requests
+import polyline
 import os
 
 # === CONFIG ===
 MAPBOX_TOKEN = os.getenv("MAPBOX_API")
-ORIGIN = (14.6571, 121.0645)  # UP Diliman
-DESTINATION = (14.6407, 121.0770)  # Ateneo
-OUTPUT_CSV = "mapbox_routes.csv"
+ORIGIN = (14.65728, 121.064451)   # UP
+DESTINATION = (14.640998, 121.077131)  # ATENEO
+OUTPUT_FILE = "simplified_routes.csv"
 
 def haversine(lat1, lon1, lat2, lon2):
+    """Calculate distance in meters between two lat/lon points."""
     R = 6371000
     phi1, phi2 = math.radians(lat1), math.radians(lat2)
     dphi = math.radians(lat2 - lat1)
     dlambda = math.radians(lon2 - lon1)
     a = math.sin(dphi/2)**2 + math.cos(phi1)*math.cos(phi2)*math.sin(dlambda/2)**2
-    return 2*R*math.atan2(math.sqrt(a), math.sqrt(1 - a))
+    return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
-def interpolate(p1, p2, step=100.0):
-    lat1, lon1 = p1
-    lat2, lon2 = p2
-    dist = haversine(lat1, lon1, lat2, lon2)
-    if dist == 0:
-        return [p1]
-    num_points = int(dist // step)
-    return [
-        (lat1 + (lat2 - lat1) * i / num_points,
-         lon1 + (lon2 - lon1) * i / num_points)
-        for i in range(num_points)
-    ] + [p2]
+def simplify_points(points, target_count=50):
+    """Reduce points evenly along the route."""
+    if len(points) <= target_count:
+        return points
+    step = len(points) // target_count
+    return [points[i] for i in range(0, len(points), step)]
 
-def decode_polyline6(encoded):
-    """Decodes a polyline6 (Mapbox) string to list of (lat, lon)."""
-    result = []
-    index = 0
-    lat, lng = 0, 0
-    shift, result_lat, result_lng = 0, 0, 0
+def clean_name(name):
+    """Return None if road is unnamed or blank."""
+    if not name or name.lower().startswith("unnamed"):
+        return None
+    return name.strip()
 
-    while index < len(encoded):
-        b, shift, result_lat = 0, 0, 0
-        while True:
-            b = ord(encoded[index]) - 63
-            index += 1
-            result_lat |= (b & 0x1F) << shift
-            shift += 5
-            if b < 0x20:
-                break
-        lat += ~(result_lat >> 1) if result_lat & 1 else (result_lat >> 1)
+def get_route_names(routes):
+    """
+    For each route, find the first step that differs from the first route.
+    If the step is unnamed, continue along the steps until a named road is found.
+    If still unnamed by the end, fallback to Alternate Route N.
+    """
+    base_steps = [clean_name(s.get("name")) for s in routes[0].get("legs", [])[0].get("steps", [])]
 
-        b, shift, result_lng = 0, 0, 0
-        while True:
-            b = ord(encoded[index]) - 63
-            index += 1
-            result_lng |= (b & 0x1F) << shift
-            shift += 5
-            if b < 0x20:
-                break
-        lng += ~(result_lng >> 1) if result_lng & 1 else (result_lng >> 1)
+    route_names = []
+    for i, route in enumerate(routes):
+        steps = [clean_name(s.get("name")) for s in route.get("legs", [])[0].get("steps", [])]
 
-        result.append((lat / 1e6, lng / 1e6))
-    return result
+        # Find first differing index
+        diff_name = None
+        for j, name in enumerate(steps):
+            base_name = base_steps[j] if j < len(base_steps) else None
+            if name != base_name:
+                # Divergence found
+                if name:
+                    diff_name = name
+                    break
+                else:
+                    # Continue searching for first non-blank name
+                    for k in range(j+1, len(steps)):
+                        if steps[k]:
+                            diff_name = steps[k]
+                            break
+                    break
 
-def fetch_routes():
-    url = (
-        f"https://api.mapbox.com/directions/v5/mapbox/driving-traffic/"
-        f"{ORIGIN[1]},{ORIGIN[0]};{DESTINATION[1]},{DESTINATION[0]}"
-        f"?alternatives=true&overview=full&geometries=polyline6&steps=false&access_token={MAPBOX_TOKEN}"
-    )
-    res = requests.get(url)
-    data = res.json()
+        if not diff_name:
+            diff_name = f"Alternate Route {i+1}"
 
-    if res.status_code != 200:
-        print(f"Error: {res.status_code} - {data}")
-        return []
+        route_names.append(diff_name)
 
-    routes = []
-    for i, r in enumerate(data["routes"]):
-        decoded = decode_polyline6(r["geometry"])
-        sampled = []
-        for j in range(len(decoded) - 1):
-            sampled.extend(interpolate(decoded[j], decoded[j+1], 100.0))
+    return route_names
 
-        route_name = r.get("summary", f"Route {i+1}")
-        distance_km = r["distance"] / 1000
-        duration_min = r["duration"] / 60
-        routes.append({
-            "name": route_name,
-            "distance_km": distance_km,
-            "duration_min": duration_min,
-            "points": sampled
-        })
-    return routes
+# === 1. Request Mapbox routes ===
+url = f"https://api.mapbox.com/directions/v5/mapbox/driving/{ORIGIN[1]},{ORIGIN[0]};{DESTINATION[1]},{DESTINATION[0]}"
+params = {
+    "alternatives": "true",
+    "overview": "full",
+    "geometries": "polyline6",
+    "steps": "true",
+    "access_token": MAPBOX_TOKEN,
+}
+resp = requests.get(url, params=params)
+data = resp.json()
 
-def save_to_csv(routes):
-    with open(OUTPUT_CSV, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["route_name", "distance_km", "duration_min", "lat", "lon", "order"])
-        for r in routes:
-            for idx, (lat, lon) in enumerate(r["points"]):
-                writer.writerow([r["name"], f"{r['distance_km']:.2f}", f"{r['duration_min']:.1f}", lat, lon, idx + 1])
-    print(f"✅ Saved {len(routes)} routes to {OUTPUT_CSV}")
+routes = data.get("routes", [])
+if not routes:
+    raise ValueError("❌ No routes found in Mapbox response")
 
-if __name__ == "__main__":
-    routes = fetch_routes()
-    save_to_csv(routes)
+# === 2. Determine route names ===
+route_names = get_route_names(routes)
+
+# === 3. Write to CSV ===
+with open(OUTPUT_FILE, "w", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerow(["route_name", "distance_km", "duration_min", "lat", "lon", "order"])
+
+    for route, route_name in zip(routes, route_names):
+        distance_km = route["distance"] / 1000
+        duration_min = route["duration"] / 60
+        coords = polyline.decode(route["geometry"], precision=6)
+        simplified = simplify_points(coords, target_count=50)
+
+        for order, (lat, lon) in enumerate(simplified, start=1):
+            writer.writerow([f"via {route_name}", round(distance_km, 2), round(duration_min, 1), lat, lon, order])
+
+print(f"✅ Saved simplified routes to {OUTPUT_FILE}")
