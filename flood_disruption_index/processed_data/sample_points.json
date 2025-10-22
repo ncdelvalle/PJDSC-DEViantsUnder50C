@@ -1,0 +1,4850 @@
+{
+  "P01": {
+    "center": {
+      "lat": 14.368200001893797,
+      "lon": 121.01060000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.368196013930765,
+        "closest_lon": 121.0101490870751,
+        "distance_m": 48.637
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.36982235874384,
+        "closest_lon": 121.0105055080398,
+        "distance_m": 179.791
+      }
+    ]
+  },
+  "P02": {
+    "center": {
+      "lat": 14.368200001893797,
+      "lon": 121.02159999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 0,
+    "closest_points": []
+  },
+  "P03": {
+    "center": {
+      "lat": 14.368200001893797,
+      "lon": 121.03250000000007
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 0,
+    "closest_points": []
+  },
+  "P04": {
+    "center": {
+      "lat": 14.38900000189668,
+      "lon": 121.01059999999995
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.389071864908804,
+        "closest_lon": 121.01061327424206,
+        "distance_m": 8.079
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.388929023296843,
+        "closest_lon": 121.01202455533112,
+        "distance_m": 153.839
+      }
+    ]
+  },
+  "P05": {
+    "center": {
+      "lat": 14.38900000189668,
+      "lon": 121.02160000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.39000310439273,
+        "closest_lon": 121.02156418458576,
+        "distance_m": 111.053
+      }
+    ]
+  },
+  "P06": {
+    "center": {
+      "lat": 14.38900000189668,
+      "lon": 121.0325
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.389369169671212,
+        "closest_lon": 121.03223144975365,
+        "distance_m": 50.072
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.38946107610239,
+        "closest_lon": 121.03241606587169,
+        "distance_m": 51.811
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.389460304605478,
+        "closest_lon": 121.03232336204397,
+        "distance_m": 54.376
+      }
+    ]
+  },
+  "P07": {
+    "center": {
+      "lat": 14.38900000189668,
+      "lon": 121.0435
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.389369595453289,
+        "closest_lon": 121.04317132142505,
+        "distance_m": 54.118
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.389368828176647,
+        "closest_lon": 121.04307861703529,
+        "distance_m": 61.079
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.389459192167426,
+        "closest_lon": 121.04307782986514,
+        "distance_m": 68.223
+      }
+    ]
+  },
+  "P08": {
+    "center": {
+      "lat": 14.38900000189668,
+      "lon": 121.0544
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.388986278064468,
+        "closest_lon": 121.05281662015678,
+        "distance_m": 170.774
+      }
+    ]
+  },
+  "P09": {
+    "center": {
+      "lat": 14.409800001899566,
+      "lon": 120.99970000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.409677074592725,
+        "closest_lon": 121.00004628723453,
+        "distance_m": 39.743
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.409804732146574,
+        "closest_lon": 121.00023058386523,
+        "distance_m": 57.22
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.41022159910425,
+        "closest_lon": 121.00031958495693,
+        "distance_m": 81.488
+      }
+    ]
+  },
+  "P10": {
+    "center": {
+      "lat": 14.409800001899566,
+      "lon": 121.01060000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.410035879974664,
+        "closest_lon": 121.01042747713734,
+        "distance_m": 32.051
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.409314417556654,
+        "closest_lon": 121.01060409106654,
+        "distance_m": 53.728
+      }
+    ]
+  },
+  "P100": {
+    "center": {
+      "lat": 14.617900001928398,
+      "lon": 120.98870000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.617900001928398,
+        "closest_lon": 120.98870000000005,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.617968112110308,
+        "closest_lon": 120.98894112164812,
+        "distance_m": 27.049
+      }
+    ]
+  },
+  "P101": {
+    "center": {
+      "lat": 14.617900001928398,
+      "lon": 120.99970000000002
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.618148721591012,
+        "closest_lon": 120.9994263397729,
+        "distance_m": 40.331
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.6185061774394,
+        "closest_lon": 120.99895908105265,
+        "distance_m": 104.262
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.618251026210633,
+        "closest_lon": 121.00081747993667,
+        "distance_m": 126.506
+      }
+    ]
+  },
+  "P102": {
+    "center": {
+      "lat": 14.617900001928398,
+      "lon": 121.01060000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.617103358764933,
+        "closest_lon": 121.01137970481841,
+        "distance_m": 121.763
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.619000137422272,
+        "closest_lon": 121.01126982969146,
+        "distance_m": 141.509
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.61936553862277,
+        "closest_lon": 121.01173056816265,
+        "distance_m": 202.807
+      }
+    ]
+  },
+  "P103": {
+    "center": {
+      "lat": 14.617900001928398,
+      "lon": 121.02159999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.617824333959323,
+        "closest_lon": 121.02176738349358,
+        "distance_m": 19.882
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.617733972883102,
+        "closest_lon": 121.02176819241664,
+        "distance_m": 25.804
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.617902324826547,
+        "closest_lon": 121.0218594906562,
+        "distance_m": 27.958
+      }
+    ]
+  },
+  "P104": {
+    "center": {
+      "lat": 14.617900001928398,
+      "lon": 121.0325000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.617826661752659,
+        "closest_lon": 121.03271842172822,
+        "distance_m": 24.892
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.618639133404127,
+        "closest_lon": 121.03261838223979,
+        "distance_m": 82.77
+      }
+    ]
+  },
+  "P105": {
+    "center": {
+      "lat": 14.617900001928398,
+      "lon": 121.04350000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.618098144500852,
+        "closest_lon": 121.04349833663326,
+        "distance_m": 21.924
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.618819343175588,
+        "closest_lon": 121.04328952827531,
+        "distance_m": 104.217
+      }
+    ]
+  },
+  "P106": {
+    "center": {
+      "lat": 14.617900001928398,
+      "lon": 121.05440000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.617918298485298,
+        "closest_lon": 121.05439984725909,
+        "distance_m": 2.024
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.617900001928398,
+        "closest_lon": 121.05440000000003,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.618919548607362,
+        "closest_lon": 121.05526075925623,
+        "distance_m": 146.034
+      }
+    ]
+  },
+  "P107": {
+    "center": {
+      "lat": 14.617900001928398,
+      "lon": 121.0654
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.618823134839829,
+        "closest_lon": 121.06539233693705,
+        "distance_m": 102.143
+      }
+    ]
+  },
+  "P108": {
+    "center": {
+      "lat": 14.617900001928398,
+      "lon": 121.07639999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.617920175883658,
+        "closest_lon": 121.07639983349178,
+        "distance_m": 2.232
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.618101916053078,
+        "closest_lon": 121.0765208901869,
+        "distance_m": 25.86
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.618565220949925,
+        "closest_lon": 121.07790898205874,
+        "distance_m": 178.461
+      }
+    ]
+  },
+  "P109": {
+    "center": {
+      "lat": 14.617900001928398,
+      "lon": 121.08730000000004
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.617900704786406,
+        "closest_lon": 121.08738120806554,
+        "distance_m": 8.75
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.61764908632372,
+        "closest_lon": 121.08738338581388,
+        "distance_m": 29.18
+      }
+    ]
+  },
+  "P11": {
+    "center": {
+      "lat": 14.409800001899566,
+      "lon": 121.02160000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.409702957209753,
+        "closest_lon": 121.02148326833534,
+        "distance_m": 16.546
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.410334718920343,
+        "closest_lon": 121.02138497720118,
+        "distance_m": 63.545
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.411049071514043,
+        "closest_lon": 121.02035876715605,
+        "distance_m": 192.396
+      }
+    ]
+  },
+  "P110": {
+    "center": {
+      "lat": 14.617900001928398,
+      "lon": 121.09829999999997
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.617899484246985,
+        "closest_lon": 121.0982398454127,
+        "distance_m": 6.481
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.61791915696868,
+        "closest_lon": 121.098299843703,
+        "distance_m": 2.119
+      }
+    ]
+  },
+  "P111": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 120.95580000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.638702361625517,
+        "closest_lon": 120.9560547276143,
+        "distance_m": 27.443
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.637864587207389,
+        "closest_lon": 120.9565265405867,
+        "distance_m": 121.121
+      }
+    ]
+  },
+  "P112": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 120.96679999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.638948731936935,
+        "closest_lon": 120.96681854473722,
+        "distance_m": 27.593
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.638948550967205,
+        "closest_lon": 120.96679782873842,
+        "distance_m": 27.502
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.639037468323973,
+        "closest_lon": 120.96663210402183,
+        "distance_m": 41.489
+      }
+    ]
+  },
+  "P113": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 120.97770000000004
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.638499566671953,
+        "closest_lon": 120.97749601240406,
+        "distance_m": 31.221
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.63886019406399,
+        "closest_lon": 120.97739989480556,
+        "distance_m": 36.87
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.639395084755908,
+        "closest_lon": 120.97655968186847,
+        "distance_m": 144.933
+      }
+    ]
+  },
+  "P114": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 120.98870000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.638596872313276,
+        "closest_lon": 120.98872539002551,
+        "distance_m": 11.734
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.638956704662437,
+        "closest_lon": 120.98853648484672,
+        "distance_m": 33.422
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.639137422813103,
+        "closest_lon": 120.98853483733384,
+        "distance_m": 51.566
+      }
+    ]
+  },
+  "P115": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 120.99970000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.638600086247283,
+        "closest_lon": 120.99958444640308,
+        "distance_m": 16.649
+      }
+    ]
+  },
+  "P116": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 121.0106
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.638873874993092,
+        "closest_lon": 121.01044112646576,
+        "distance_m": 25.75
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.638700001931271,
+        "closest_lon": 121.0106,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.638701093952417,
+        "closest_lon": 121.01072112508956,
+        "distance_m": 13.049
+      }
+    ]
+  },
+  "P117": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 121.02160000000002
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.638880022094586,
+        "closest_lon": 121.02176436724483,
+        "distance_m": 26.651
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.638969594193036,
+        "closest_lon": 121.02167074995295,
+        "distance_m": 30.787
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.639059955099615,
+        "closest_lon": 121.02166993976273,
+        "distance_m": 40.534
+      }
+    ]
+  },
+  "P118": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 121.03250000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.638609042662804,
+        "closest_lon": 121.03244044463558,
+        "distance_m": 11.935
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.638608258123526,
+        "closest_lon": 121.03234763704305,
+        "distance_m": 19.299
+      }
+    ]
+  },
+  "P119": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 121.04350000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.6386998654478,
+        "closest_lon": 121.04348460767953,
+        "distance_m": 1.658
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.638340690623103,
+        "closest_lon": 121.04348779244448,
+        "distance_m": 39.778
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.639607320234255,
+        "closest_lon": 121.04366219209511,
+        "distance_m": 101.9
+      }
+    ]
+  },
+  "P12": {
+    "center": {
+      "lat": 14.409800001899566,
+      "lon": 121.03250000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.409251418094144,
+        "closest_lon": 121.0323353161534,
+        "distance_m": 63.242
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.409252828293758,
+        "closest_lon": 121.03250455914944,
+        "distance_m": 60.543
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.408531601764846,
+        "closest_lon": 121.03271250383501,
+        "distance_m": 142.198
+      }
+    ]
+  },
+  "P120": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 121.05439999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.638794712116749,
+        "closest_lon": 121.05452880820215,
+        "distance_m": 17.389
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.64051470615621,
+        "closest_lon": 121.05488490795645,
+        "distance_m": 207.472
+      }
+    ]
+  },
+  "P121": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 121.0654
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.63869990646856,
+        "closest_lon": 121.06538911192435,
+        "distance_m": 1.173
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.63806732086827,
+        "closest_lon": 121.06483776241384,
+        "distance_m": 92.569
+      }
+    ]
+  },
+  "P122": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 121.07640000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.638700001931271,
+        "closest_lon": 121.07640000000005,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.638975220439704,
+        "closest_lon": 121.07624624046863,
+        "distance_m": 34.665
+      }
+    ]
+  },
+  "P123": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 121.0873
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.638700001931271,
+        "closest_lon": 121.0873,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.638885563729849,
+        "closest_lon": 121.0872984751831,
+        "distance_m": 20.532
+      }
+    ]
+  },
+  "P124": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 121.09830000000004
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.638700001931271,
+        "closest_lon": 121.09830000000004,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.638704594030363,
+        "closest_lon": 121.09829996248209,
+        "distance_m": 0.508
+      }
+    ]
+  },
+  "P125": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 121.10919999999997
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.638793386874712,
+        "closest_lon": 121.10919924142755,
+        "distance_m": 10.333
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.638700001931271,
+        "closest_lon": 121.10919999999997,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.63771125152919,
+        "closest_lon": 121.10948578859939,
+        "distance_m": 113.65
+      }
+    ]
+  },
+  "P126": {
+    "center": {
+      "lat": 14.638700001931271,
+      "lon": 121.12019999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.63870210164146,
+        "closest_lon": 121.12024425406926,
+        "distance_m": 4.773
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.638702851151248,
+        "closest_lon": 121.12033706651152,
+        "distance_m": 14.769
+      }
+    ]
+  },
+  "P127": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 120.94490000000012
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.659500001934164,
+        "closest_lon": 120.94490000000012,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.659631200592255,
+        "closest_lon": 120.94500083134555,
+        "distance_m": 18.13
+      }
+    ]
+  },
+  "P128": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 120.95580000000007
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.659547050264216,
+        "closest_lon": 120.95595429771556,
+        "distance_m": 17.417
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.659500001934164,
+        "closest_lon": 120.95580000000007,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P129": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 120.96680000000006
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.659500001934164,
+        "closest_lon": 120.96680000000006,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.659551116379927,
+        "closest_lon": 120.9667213668966,
+        "distance_m": 10.185
+      }
+    ]
+  },
+  "P13": {
+    "center": {
+      "lat": 14.409800001899566,
+      "lon": 121.04350000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.409431921246657,
+        "closest_lon": 121.04318186900227,
+        "distance_m": 53.25
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.409705317556693,
+        "closest_lon": 121.04345764255194,
+        "distance_m": 11.429
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.409794144917804,
+        "closest_lon": 121.04327142870316,
+        "distance_m": 24.658
+      }
+    ]
+  },
+  "P130": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 120.97770000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.658742266185637,
+        "closest_lon": 120.97758878224093,
+        "distance_m": 84.692
+      }
+    ]
+  },
+  "P131": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 120.98870000000008
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.659500001934164,
+        "closest_lon": 120.98870000000008,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.657935123956227,
+        "closest_lon": 120.98871353887189,
+        "distance_m": 173.153
+      }
+    ]
+  },
+  "P132": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 120.99970000000015
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.659475781417603,
+        "closest_lon": 120.99970020841869,
+        "distance_m": 2.68
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.659835392257786,
+        "closest_lon": 120.99948459222651,
+        "distance_m": 43.767
+      }
+    ]
+  },
+  "P133": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 121.01059999999997
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.65902102319378,
+        "closest_lon": 121.00988803212503,
+        "distance_m": 93.222
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.65892748445205,
+        "closest_lon": 121.00951758883868,
+        "distance_m": 132.693
+      }
+    ]
+  },
+  "P134": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 121.02160000000002
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.658669834013555,
+        "closest_lon": 121.02167962791887,
+        "distance_m": 92.254
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.66065223968846,
+        "closest_lon": 121.02101206373254,
+        "distance_m": 142.354
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.66093675072701,
+        "closest_lon": 121.02258750721523,
+        "distance_m": 191.276
+      }
+    ]
+  },
+  "P135": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 121.03250000000007
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.6594872423702,
+        "closest_lon": 121.03281106543443,
+        "distance_m": 33.537
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.659032802354549,
+        "closest_lon": 121.03250395424614,
+        "distance_m": 51.695
+      }
+    ]
+  },
+  "P136": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 121.04350000000007
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.65967159380654,
+        "closest_lon": 121.04394827103148,
+        "distance_m": 51.886
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.660218451252089,
+        "closest_lon": 121.04450036149602,
+        "distance_m": 133.906
+      }
+    ]
+  },
+  "P137": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 121.05440000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.659215108171203,
+        "closest_lon": 121.05416297357466,
+        "distance_m": 40.565
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.659034383137865,
+        "closest_lon": 121.05416456963803,
+        "distance_m": 57.422
+      }
+    ]
+  },
+  "P138": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 121.0654
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.659500001934164,
+        "closest_lon": 121.0654,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.659499933884836,
+        "closest_lon": 121.06539225012675,
+        "distance_m": 0.835
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.659843297783887,
+        "closest_lon": 121.06446098391771,
+        "distance_m": 108.046
+      }
+    ]
+  },
+  "P139": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 121.07640000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.659762728633336,
+        "closest_lon": 121.07652898767687,
+        "distance_m": 32.219
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.65903751452164,
+        "closest_lon": 121.07625684278872,
+        "distance_m": 53.445
+      }
+    ]
+  },
+  "P14": {
+    "center": {
+      "lat": 14.430600001902437,
+      "lon": 120.98870000000002
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.432265509179704,
+        "closest_lon": 120.98899572305108,
+        "distance_m": 187.016
+      }
+    ]
+  },
+  "P140": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 121.08730000000004
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.659941944753841,
+        "closest_lon": 121.08729636367391,
+        "distance_m": 48.901
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.660399865823631,
+        "closest_lon": 121.08803387209694,
+        "distance_m": 127.132
+      }
+    ]
+  },
+  "P141": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 121.09830000000004
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.659311158369132,
+        "closest_lon": 121.09853268597236,
+        "distance_m": 32.632
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.659500393780153,
+        "closest_lon": 121.0983453997093,
+        "distance_m": 4.891
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.659500001934164,
+        "closest_lon": 121.09830000000004,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P142": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 121.10920000000004
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.65957820040606,
+        "closest_lon": 121.10911264318331,
+        "distance_m": 12.783
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.66056693373416,
+        "closest_lon": 121.10845436485386,
+        "distance_m": 142.784
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.659837967084805,
+        "closest_lon": 121.1077180060505,
+        "distance_m": 163.96
+      }
+    ]
+  },
+  "P143": {
+    "center": {
+      "lat": 14.659500001934164,
+      "lon": 121.12020000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.659127090227603,
+        "closest_lon": 121.12034860336779,
+        "distance_m": 44.257
+      }
+    ]
+  },
+  "P144": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 120.93390000000002
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.680315118808757,
+        "closest_lon": 120.93376127049774,
+        "distance_m": 15.036
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.680599399597444,
+        "closest_lon": 120.9352438389502,
+        "distance_m": 148.485
+      }
+    ]
+  },
+  "P145": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 120.94489999999993
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.680597988369954,
+        "closest_lon": 120.94526924452231,
+        "distance_m": 51.66
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.680300001937043,
+        "closest_lon": 120.94489999999993,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P146": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 120.95580000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.680240438084219,
+        "closest_lon": 120.95594781373421,
+        "distance_m": 17.231
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.680300001937043,
+        "closest_lon": 120.95580000000001,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P147": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 120.96679999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.680335805319483,
+        "closest_lon": 120.96680788200865,
+        "distance_m": 4.051
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.68029750388615,
+        "closest_lon": 120.96652974923384,
+        "distance_m": 29.11
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.681419282705516,
+        "closest_lon": 120.96670503846032,
+        "distance_m": 124.265
+      }
+    ]
+  },
+  "P148": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 120.97770000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.680300001937043,
+        "closest_lon": 120.97770000000003,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.68025021683936,
+        "closest_lon": 120.97770043367802,
+        "distance_m": 5.509
+      }
+    ]
+  },
+  "P149": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 120.9887
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.680294205652336,
+        "closest_lon": 120.9880662131416,
+        "distance_m": 68.267
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.681235819308775,
+        "closest_lon": 120.98712929764191,
+        "distance_m": 198.349
+      }
+    ]
+  },
+  "P15": {
+    "center": {
+      "lat": 14.430600001902437,
+      "lon": 120.99970000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.430599944017706,
+        "closest_lon": 120.99969351868522,
+        "distance_m": 0.699
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.430484865379341,
+        "closest_lon": 120.99970097662431,
+        "distance_m": 12.74
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.430394449540746,
+        "closest_lon": 120.99969535394312,
+        "distance_m": 22.749
+      }
+    ]
+  },
+  "P150": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 120.99969999999995
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.680300001937043,
+        "closest_lon": 120.99969999999995,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.679808285738252,
+        "closest_lon": 120.99970423657733,
+        "distance_m": 54.408
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.679808028833946,
+        "closest_lon": 120.99967441910988,
+        "distance_m": 54.504
+      }
+    ]
+  },
+  "P151": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 121.01059999999995
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.680628205376895,
+        "closest_lon": 121.01099234273705,
+        "distance_m": 55.718
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.679447956952124,
+        "closest_lon": 121.01035319803918,
+        "distance_m": 97.951
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.681896426426405,
+        "closest_lon": 121.0113522029713,
+        "distance_m": 194.332
+      }
+    ]
+  },
+  "P152": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 121.02159999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.680361930378844,
+        "closest_lon": 121.02213452246383,
+        "distance_m": 57.979
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.680903303159226,
+        "closest_lon": 121.02203682319755,
+        "distance_m": 81.667
+      }
+    ]
+  },
+  "P153": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 121.03249999999994
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.679996891142494,
+        "closest_lon": 121.03234930291191,
+        "distance_m": 37.259
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.679274001739312,
+        "closest_lon": 121.03235576813671,
+        "distance_m": 114.58
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.68189211494208,
+        "closest_lon": 121.03205385258326,
+        "distance_m": 182.597
+      }
+    ]
+  },
+  "P154": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 121.04349999999995
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.680300001937043,
+        "closest_lon": 121.04349999999995,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.680364463220513,
+        "closest_lon": 121.0437644114703,
+        "distance_m": 29.359
+      }
+    ]
+  },
+  "P155": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 121.05439999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.68027266627136,
+        "closest_lon": 121.0543481879243,
+        "distance_m": 6.348
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.680000801231103,
+        "closest_lon": 121.05425775913274,
+        "distance_m": 36.478
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.679730492082527,
+        "closest_lon": 121.05435298277806,
+        "distance_m": 63.217
+      }
+    ]
+  },
+  "P156": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 121.06539999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.68045379519602,
+        "closest_lon": 121.06520811468421,
+        "distance_m": 26.772
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.68063452108414,
+        "closest_lon": 121.06520652525332,
+        "distance_m": 42.476
+      }
+    ]
+  },
+  "P157": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 121.07640000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.680454460137899,
+        "closest_lon": 121.07616253291744,
+        "distance_m": 30.761
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.679911509718252,
+        "closest_lon": 121.07607444668686,
+        "distance_m": 55.473
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.680356402443135,
+        "closest_lon": 121.0752350474022,
+        "distance_m": 125.631
+      }
+    ]
+  },
+  "P158": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 121.08729999999997
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.680300843992327,
+        "closest_lon": 121.08739685891413,
+        "distance_m": 10.433
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.680458431930216,
+        "closest_lon": 121.08758115870839,
+        "distance_m": 34.991
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.68082141778137,
+        "closest_lon": 121.08776367340978,
+        "distance_m": 76.306
+      }
+    ]
+  },
+  "P159": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 121.0983
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.680365734311,
+        "closest_lon": 121.09829946157146,
+        "distance_m": 7.273
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.679921173129745,
+        "closest_lon": 121.09919019864067,
+        "distance_m": 104.644
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.679189132814003,
+        "closest_lon": 121.09808250434057,
+        "distance_m": 125.125
+      }
+    ]
+  },
+  "P16": {
+    "center": {
+      "lat": 14.430600001902437,
+      "lon": 121.0106
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.430516206783434,
+        "closest_lon": 121.01047749371152,
+        "distance_m": 16.139
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.430155797219912,
+        "closest_lon": 121.01060374729654,
+        "distance_m": 49.15
+      }
+    ]
+  },
+  "P160": {
+    "center": {
+      "lat": 14.680300001937043,
+      "lon": 121.10919999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.68072142280596,
+        "closest_lon": 121.10865253535786,
+        "distance_m": 75.175
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.680722935258167,
+        "closest_lon": 121.10883819439597,
+        "distance_m": 60.897
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.680300001937043,
+        "closest_lon": 121.10919999999999,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P161": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 120.91200000000006
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.701174181039928,
+        "closest_lon": 120.91193452068629,
+        "distance_m": 7.609
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.701200001939952,
+        "closest_lon": 120.91200000000006,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P162": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 120.92300000000004
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.700821793408519,
+        "closest_lon": 120.92300338805599,
+        "distance_m": 41.849
+      }
+    ]
+  },
+  "P163": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 120.9558
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.701200001939952,
+        "closest_lon": 120.9558,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.701199890315372,
+        "closest_lon": 120.95578800532974,
+        "distance_m": 1.292
+      }
+    ]
+  },
+  "P164": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 120.96680000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.701897841809814,
+        "closest_lon": 120.96692204501251,
+        "distance_m": 78.324
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.70188318276357,
+        "closest_lon": 120.96525109623236,
+        "distance_m": 183.142
+      }
+    ]
+  },
+  "P165": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 120.9777000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.700722962119478,
+        "closest_lon": 120.97723791895655,
+        "distance_m": 72.544
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.701532133756018,
+        "closest_lon": 120.97676627564228,
+        "distance_m": 107.065
+      }
+    ]
+  },
+  "P166": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 120.98870000000007
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.700819878783506,
+        "closest_lon": 120.9883776364053,
+        "distance_m": 54.537
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.70120126850944,
+        "closest_lon": 120.98883833813747,
+        "distance_m": 14.899
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.701200001939952,
+        "closest_lon": 120.98870000000007,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P167": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 120.99970000000006
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.701183333345508,
+        "closest_lon": 120.99905080613767,
+        "distance_m": 69.941
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.700925069372989,
+        "closest_lon": 121.00053858756374,
+        "distance_m": 95.3
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.702369216130812,
+        "closest_lon": 121.00033976217834,
+        "distance_m": 146.573
+      }
+    ]
+  },
+  "P168": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 121.01060000000012
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.701199664821623,
+        "closest_lon": 121.010562776631,
+        "distance_m": 4.009
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.700830910673682,
+        "closest_lon": 121.01060316684435,
+        "distance_m": 40.84
+      }
+    ]
+  },
+  "P169": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 121.02160000000008
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.700724976180663,
+        "closest_lon": 121.02132983351343,
+        "distance_m": 60.076
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.70071546687905,
+        "closest_lon": 121.02021583612105,
+        "distance_m": 158.42
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.699904601404551,
+        "closest_lon": 121.02050166334277,
+        "distance_m": 185.839
+      }
+    ]
+  },
+  "P17": {
+    "center": {
+      "lat": 14.430600001902437,
+      "lon": 121.02160000000006
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.430599808440368,
+        "closest_lon": 121.02157809833899,
+        "distance_m": 2.362
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.430817360280685,
+        "closest_lon": 121.02009254232944,
+        "distance_m": 164.318
+      }
+    ]
+  },
+  "P170": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 121.03250000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.70091171174856,
+        "closest_lon": 121.03265470980368,
+        "distance_m": 35.988
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.700819775264623,
+        "closest_lon": 121.0324698514126,
+        "distance_m": 42.196
+      }
+    ]
+  },
+  "P171": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 121.04350000000011
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.70120070540698,
+        "closest_lon": 121.04357898639837,
+        "distance_m": 8.507
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.700642046670172,
+        "closest_lon": 121.04350470812412,
+        "distance_m": 61.738
+      }
+    ]
+  },
+  "P172": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 121.05440000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.701641863367726,
+        "closest_lon": 121.05493019515116,
+        "distance_m": 75.172
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.699745813770221,
+        "closest_lon": 121.05513266601123,
+        "distance_m": 179.207
+      }
+    ]
+  },
+  "P173": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 121.0654
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.701002857172568,
+        "closest_lon": 121.06496281950564,
+        "distance_m": 51.891
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.700912494400193,
+        "closest_lon": 121.06496361547605,
+        "distance_m": 56.752
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.701194499848134,
+        "closest_lon": 121.06477544618613,
+        "distance_m": 67.266
+      }
+    ]
+  },
+  "P174": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 121.07640000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.701060801890263,
+        "closest_lon": 121.07640115484158,
+        "distance_m": 15.402
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.702409694235325,
+        "closest_lon": 121.07559900420104,
+        "distance_m": 159.239
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.702993963299654,
+        "closest_lon": 121.07617935879199,
+        "distance_m": 199.912
+      }
+    ]
+  },
+  "P175": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 121.0873
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.701200001939952,
+        "closest_lon": 121.0873,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.700879942073225,
+        "closest_lon": 121.08731065615922,
+        "distance_m": 35.432
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.701794300197108,
+        "closest_lon": 121.08860251014062,
+        "distance_m": 154.925
+      }
+    ]
+  },
+  "P176": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 121.09830000000007
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.701600317534552,
+        "closest_lon": 121.09798145460772,
+        "distance_m": 56.025
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.701509191413415,
+        "closest_lon": 121.09788939932335,
+        "distance_m": 55.909
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.701166761677381,
+        "closest_lon": 121.10021346968946,
+        "distance_m": 206.11
+      }
+    ]
+  },
+  "P177": {
+    "center": {
+      "lat": 14.701200001939952,
+      "lon": 121.10920000000007
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.701198568030202,
+        "closest_lon": 121.10903342104139,
+        "distance_m": 17.941
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.701199367208211,
+        "closest_lon": 121.10912625886043,
+        "distance_m": 7.942
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.701200001939952,
+        "closest_lon": 121.10920000000007,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P178": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 120.94489999999995
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.722089296989122,
+        "closest_lon": 120.94485500020141,
+        "distance_m": 11.005
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.72208847297724,
+        "closest_lon": 120.9447621624124,
+        "distance_m": 17.781
+      }
+    ]
+  },
+  "P179": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 120.95580000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.722000001942826,
+        "closest_lon": 120.95580000000001,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.721915096610893,
+        "closest_lon": 120.95580074957535,
+        "distance_m": 9.395
+      }
+    ]
+  },
+  "P18": {
+    "center": {
+      "lat": 14.430600001902437,
+      "lon": 121.03250000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.430580220652306,
+        "closest_lon": 121.03251898592417,
+        "distance_m": 2.997
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.430942446652523,
+        "closest_lon": 121.03260853174648,
+        "distance_m": 39.655
+      }
+    ]
+  },
+  "P180": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 120.96679999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.722404096893221,
+        "closest_lon": 120.96657081876273,
+        "distance_m": 51.071
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.722768786693624,
+        "closest_lon": 120.96693882531757,
+        "distance_m": 86.367
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.723500609579737,
+        "closest_lon": 120.96795336126463,
+        "distance_m": 207.351
+      }
+    ]
+  },
+  "P181": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 120.97769999999997
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.722000001942826,
+        "closest_lon": 120.97769999999997,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.721421425696008,
+        "closest_lon": 120.9781857566591,
+        "distance_m": 82.671
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.723031645729051,
+        "closest_lon": 120.9763139627634,
+        "distance_m": 187.904
+      }
+    ]
+  },
+  "P182": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 120.98869999999995
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.7219997468788,
+        "closest_lon": 120.98867218465305,
+        "distance_m": 2.996
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.721332875617271,
+        "closest_lon": 120.9887711470436,
+        "distance_m": 74.211
+      }
+    ]
+  },
+  "P183": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 120.99970000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.72196591032015,
+        "closest_lon": 120.99925715935876,
+        "distance_m": 47.838
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.720626577120516,
+        "closest_lon": 121.00073051949133,
+        "distance_m": 188.172
+      }
+    ]
+  },
+  "P184": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 121.01059999999997
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.721999860140471,
+        "closest_lon": 121.0105843656545,
+        "distance_m": 1.684
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.722972679587837,
+        "closest_lon": 121.01122548634086,
+        "distance_m": 126.963
+      }
+    ]
+  },
+  "P185": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 121.02159999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.722605991746413,
+        "closest_lon": 121.02116368691979,
+        "distance_m": 81.874
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.721326336650304,
+        "closest_lon": 121.02105127823813,
+        "distance_m": 95.119
+      }
+    ]
+  },
+  "P186": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 121.03249999999994
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.721248444757812,
+        "closest_lon": 121.03312238523566,
+        "distance_m": 106.805
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.722878095086717,
+        "closest_lon": 121.03347917294695,
+        "distance_m": 143.382
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.722342236360792,
+        "closest_lon": 121.03422677783064,
+        "distance_m": 189.77
+      }
+    ]
+  },
+  "P187": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 121.04349999999994
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.721879484997697,
+        "closest_lon": 121.04360878602844,
+        "distance_m": 17.75
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.722000134485066,
+        "closest_lon": 121.04351485954588,
+        "distance_m": 1.6
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.72205942348181,
+        "closest_lon": 121.04351433070762,
+        "distance_m": 6.753
+      }
+    ]
+  },
+  "P188": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 121.05439999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.722059807630878,
+        "closest_lon": 121.0542850049181,
+        "distance_m": 14.041
+      }
+    ]
+  },
+  "P189": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 121.0654
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.722337759258725,
+        "closest_lon": 121.06588895517069,
+        "distance_m": 64.569
+      }
+    ]
+  },
+  "P19": {
+    "center": {
+      "lat": 14.430600001902437,
+      "lon": 121.04350000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.4305824260543,
+        "closest_lon": 121.04364631379057,
+        "distance_m": 15.896
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.430600001902437,
+        "closest_lon": 121.04350000000005,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.430400929409831,
+        "closest_lon": 121.04355517099114,
+        "distance_m": 22.815
+      }
+    ]
+  },
+  "P190": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 121.07639999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 2.0,
+        "closest_lat": 14.722000001942826,
+        "closest_lon": 121.07639999999998,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P191": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 121.08729999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.722244048986294,
+        "closest_lon": 121.08724575908617,
+        "distance_m": 27.627
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.722000001942826,
+        "closest_lon": 121.08729999999998,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P192": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 121.09830000000002
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.721488881392414,
+        "closest_lon": 121.09883049873135,
+        "distance_m": 80.386
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.721524820858217,
+        "closest_lon": 121.09867289452905,
+        "distance_m": 66.158
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.722000001942826,
+        "closest_lon": 121.09830000000002,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P193": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 121.10919999999997
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.72269586276282,
+        "closest_lon": 121.10924805032498,
+        "distance_m": 77.168
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.722696620880566,
+        "closest_lon": 121.10934089760684,
+        "distance_m": 78.557
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.72301758490055,
+        "closest_lon": 121.10893830188182,
+        "distance_m": 116.065
+      }
+    ]
+  },
+  "P194": {
+    "center": {
+      "lat": 14.722000001942826,
+      "lon": 121.12019999999995
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.721479469716353,
+        "closest_lon": 121.11981542648888,
+        "distance_m": 70.939
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.721657939021643,
+        "closest_lon": 121.11953533519153,
+        "distance_m": 80.967
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.723386943380085,
+        "closest_lon": 121.1210061860958,
+        "distance_m": 176.315
+      }
+    ]
+  },
+  "P195": {
+    "center": {
+      "lat": 14.742800001945717,
+      "lon": 120.9887
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.74274942224007,
+        "closest_lon": 120.98876033244167,
+        "distance_m": 8.575
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.742839260046756,
+        "closest_lon": 120.98869965856503,
+        "distance_m": 4.344
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.742929618706738,
+        "closest_lon": 120.9886988726923,
+        "distance_m": 14.342
+      }
+    ]
+  },
+  "P196": {
+    "center": {
+      "lat": 14.742800001945717,
+      "lon": 120.9997
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.742754089472449,
+        "closest_lon": 120.99971738851515,
+        "distance_m": 5.414
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.74284846344846,
+        "closest_lon": 121.0001808120713,
+        "distance_m": 52.05
+      }
+    ]
+  },
+  "P197": {
+    "center": {
+      "lat": 14.742800001945717,
+      "lon": 121.01059999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.742931766247075,
+        "closest_lon": 121.00983721899036,
+        "distance_m": 83.419
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.7429309671756,
+        "closest_lon": 121.00974436863504,
+        "distance_m": 93.265
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.742788861109448,
+        "closest_lon": 121.00937422980171,
+        "distance_m": 131.994
+      }
+    ]
+  },
+  "P198": {
+    "center": {
+      "lat": 14.742800001945717,
+      "lon": 121.0216
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.742851431252241,
+        "closest_lon": 121.02153804097235,
+        "distance_m": 8.769
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.742853019883068,
+        "closest_lon": 121.02172374295326,
+        "distance_m": 14.559
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.74294258568371,
+        "closest_lon": 121.02163007574558,
+        "distance_m": 16.105
+      }
+    ]
+  },
+  "P199": {
+    "center": {
+      "lat": 14.742800001945717,
+      "lon": 121.03250000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.742673858872074,
+        "closest_lon": 121.03250107315131,
+        "distance_m": 13.958
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.743212827578883,
+        "closest_lon": 121.03212065365416,
+        "distance_m": 61.278
+      }
+    ]
+  },
+  "P20": {
+    "center": {
+      "lat": 14.451400001905316,
+      "lon": 120.97770000000007
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.451444813431674,
+        "closest_lon": 120.97790015628917,
+        "distance_m": 22.143
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.450814682216823,
+        "closest_lon": 120.97818405374503,
+        "distance_m": 83.174
+      }
+    ]
+  },
+  "P200": {
+    "center": {
+      "lat": 14.742800001945717,
+      "lon": 121.04350000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.742800001945717,
+        "closest_lon": 121.04350000000005,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.742846330967927,
+        "closest_lon": 121.04349960805202,
+        "distance_m": 5.126
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.742935502329807,
+        "closest_lon": 121.04335815436369,
+        "distance_m": 21.402
+      }
+    ]
+  },
+  "P21": {
+    "center": {
+      "lat": 14.451400001905316,
+      "lon": 120.98869999999995
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.451266635864041,
+        "closest_lon": 120.98875161808807,
+        "distance_m": 15.771
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.45109066550025,
+        "closest_lon": 120.98930960451696,
+        "distance_m": 74.105
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.452361254673058,
+        "closest_lon": 120.98994732221304,
+        "distance_m": 171.459
+      }
+    ]
+  },
+  "P22": {
+    "center": {
+      "lat": 14.451400001905316,
+      "lon": 120.99970000000008
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.451480789024531,
+        "closest_lon": 120.99969931380468,
+        "distance_m": 8.939
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.451255282901915,
+        "closest_lon": 120.99802514681647,
+        "distance_m": 181.291
+      }
+    ]
+  },
+  "P23": {
+    "center": {
+      "lat": 14.451400001905316,
+      "lon": 121.01060000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.451883686727015,
+        "closest_lon": 121.01059591397245,
+        "distance_m": 53.518
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.451247547551333,
+        "closest_lon": 121.01017458726545,
+        "distance_m": 48.871
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.451067607552343,
+        "closest_lon": 121.01026892328676,
+        "distance_m": 51.252
+      }
+    ]
+  },
+  "P24": {
+    "center": {
+      "lat": 14.451400001905316,
+      "lon": 121.02159999999996
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.450906695034544,
+        "closest_lon": 121.02093379275253,
+        "distance_m": 90.215
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.45046033691208,
+        "closest_lon": 121.02158688977877,
+        "distance_m": 103.977
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.45107962555467,
+        "closest_lon": 121.02000490709143,
+        "distance_m": 175.598
+      }
+    ]
+  },
+  "P25": {
+    "center": {
+      "lat": 14.451400001905316,
+      "lon": 121.03250000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.451723616958429,
+        "closest_lon": 121.03214763205696,
+        "distance_m": 52.206
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.451994705717425,
+        "closest_lon": 121.03214524660903,
+        "distance_m": 76.11
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.449827544870558,
+        "closest_lon": 121.03234978636661,
+        "distance_m": 174.734
+      }
+    ]
+  },
+  "P26": {
+    "center": {
+      "lat": 14.451400001905316,
+      "lon": 121.04350000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.45145488205512,
+        "closest_lon": 121.0432783815118,
+        "distance_m": 24.654
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.45140455613688,
+        "closest_lon": 121.04402071630244,
+        "distance_m": 56.146
+      }
+    ]
+  },
+  "P27": {
+    "center": {
+      "lat": 14.472200001908192,
+      "lon": 120.97769999999996
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.472137216946152,
+        "closest_lon": 120.97771290677248,
+        "distance_m": 7.085
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.472200001908192,
+        "closest_lon": 120.97769999999996,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.472226779306435,
+        "closest_lon": 120.97761935346186,
+        "distance_m": 9.185
+      }
+    ]
+  },
+  "P28": {
+    "center": {
+      "lat": 14.472200001908192,
+      "lon": 120.98869999999995
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.472231845736111,
+        "closest_lon": 120.98874840481577,
+        "distance_m": 6.297
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.472200001908192,
+        "closest_lon": 120.98869999999995,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.473758451938718,
+        "closest_lon": 120.98762173355459,
+        "distance_m": 207.958
+      }
+    ]
+  },
+  "P29": {
+    "center": {
+      "lat": 14.472200001908192,
+      "lon": 120.99969999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.472138924542172,
+        "closest_lon": 120.99904371171353,
+        "distance_m": 71.076
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.47127287798651,
+        "closest_lon": 120.998797935699,
+        "distance_m": 141.353
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.470694008743695,
+        "closest_lon": 120.99926913217475,
+        "distance_m": 172.982
+      }
+    ]
+  },
+  "P30": {
+    "center": {
+      "lat": 14.472200001908192,
+      "lon": 121.01060000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.472055752358632,
+        "closest_lon": 121.01054464888733,
+        "distance_m": 17.039
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.472200001908192,
+        "closest_lon": 121.01060000000003,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.472506775783195,
+        "closest_lon": 121.01044788661999,
+        "distance_m": 37.697
+      }
+    ]
+  },
+  "P31": {
+    "center": {
+      "lat": 14.472200001908192,
+      "lon": 121.0216
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.472331125223942,
+        "closest_lon": 121.0217642388995,
+        "distance_m": 22.891
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.472422267425994,
+        "closest_lon": 121.02185617593943,
+        "distance_m": 36.98
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.472514189539826,
+        "closest_lon": 121.02204085066995,
+        "distance_m": 58.884
+      }
+    ]
+  },
+  "P32": {
+    "center": {
+      "lat": 14.472200001908192,
+      "lon": 121.03250000000006
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.472330800693747,
+        "closest_lon": 121.03249890580689,
+        "distance_m": 14.473
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.472329447486793,
+        "closest_lon": 121.03233714913428,
+        "distance_m": 22.658
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.472601890046727,
+        "closest_lon": 121.03249663795562,
+        "distance_m": 44.468
+      }
+    ]
+  },
+  "P33": {
+    "center": {
+      "lat": 14.472200001908192,
+      "lon": 121.0435
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.472200001908192,
+        "closest_lon": 121.0435,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.47125219072895,
+        "closest_lon": 121.04403248516883,
+        "distance_m": 119.554
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.47097184378418,
+        "closest_lon": 121.04292200136223,
+        "distance_m": 149.494
+      }
+    ]
+  },
+  "P34": {
+    "center": {
+      "lat": 14.472200001908192,
+      "lon": 121.05440000000002
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.47206278066217,
+        "closest_lon": 121.0545983920054,
+        "distance_m": 26.229
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.472335406690412,
+        "closest_lon": 121.0547815090281,
+        "distance_m": 43.774
+      }
+    ]
+  },
+  "P35": {
+    "center": {
+      "lat": 14.49310000191109,
+      "lon": 120.98869999999995
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.49301471129662,
+        "closest_lon": 120.98856106470186,
+        "distance_m": 17.702
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.49328340904476,
+        "closest_lon": 120.98828038614572,
+        "distance_m": 49.578
+      }
+    ]
+  },
+  "P36": {
+    "center": {
+      "lat": 14.49310000191109,
+      "lon": 120.99969999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.493563137529492,
+        "closest_lon": 120.99987185045306,
+        "distance_m": 54.489
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.493652001741854,
+        "closest_lon": 120.99969529903869,
+        "distance_m": 61.077
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.493654288122077,
+        "closest_lon": 120.99996378498176,
+        "distance_m": 67.6
+      }
+    ]
+  },
+  "P37": {
+    "center": {
+      "lat": 14.49310000191109,
+      "lon": 121.0106
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.493383124081916,
+        "closest_lon": 121.01059760199986,
+        "distance_m": 31.327
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.492303796681,
+        "closest_lon": 121.01119888548779,
+        "distance_m": 109.219
+      }
+    ]
+  },
+  "P38": {
+    "center": {
+      "lat": 14.49310000191109,
+      "lon": 121.02159999999996
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.493656752564723,
+        "closest_lon": 121.02159531050737,
+        "distance_m": 61.603
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.493657364044882,
+        "closest_lon": 121.02166790726953,
+        "distance_m": 62.102
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.493747114929665,
+        "closest_lon": 121.021594549355,
+        "distance_m": 71.601
+      }
+    ]
+  },
+  "P39": {
+    "center": {
+      "lat": 14.49310000191109,
+      "lon": 121.03250000000004
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.493105131373968,
+        "closest_lon": 121.03308147096567,
+        "distance_m": 62.685
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.492396179641926,
+        "closest_lon": 121.03290221816079,
+        "distance_m": 89.131
+      }
+    ]
+  },
+  "P40": {
+    "center": {
+      "lat": 14.49310000191109,
+      "lon": 121.04349999999995
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.49310000191109,
+        "closest_lon": 121.04349999999995,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.493117276558264,
+        "closest_lon": 121.0434998561126,
+        "distance_m": 1.911
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.493836841319169,
+        "closest_lon": 121.04309246883064,
+        "distance_m": 92.61
+      }
+    ]
+  },
+  "P41": {
+    "center": {
+      "lat": 14.49310000191109,
+      "lon": 121.05439999999997
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.493207932284808,
+        "closest_lon": 121.05441403166836,
+        "distance_m": 12.037
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.492836487184086,
+        "closest_lon": 121.05321146376328,
+        "distance_m": 131.399
+      }
+    ]
+  },
+  "P42": {
+    "center": {
+      "lat": 14.513900001913969,
+      "lon": 120.99969999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.513900001913969,
+        "closest_lon": 120.99969999999999,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.514260492486248,
+        "closest_lon": 121.0002425941544,
+        "distance_m": 70.792
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.513886561477024,
+        "closest_lon": 120.99820521890119,
+        "distance_m": 161.129
+      }
+    ]
+  },
+  "P43": {
+    "center": {
+      "lat": 14.513900001913969,
+      "lon": 121.01059999999997
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.514348529578344,
+        "closest_lon": 121.01059619602536,
+        "distance_m": 49.629
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.514438891185915,
+        "closest_lon": 121.01059542963817,
+        "distance_m": 59.627
+      }
+    ]
+  },
+  "P44": {
+    "center": {
+      "lat": 14.513900001913969,
+      "lon": 121.0216
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.514351813433052,
+        "closest_lon": 121.02166966103235,
+        "distance_m": 50.551
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.514611160621843,
+        "closest_lon": 121.02027592606305,
+        "distance_m": 162.975
+      }
+    ]
+  },
+  "P45": {
+    "center": {
+      "lat": 14.513900001913969,
+      "lon": 121.03250000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.513448874623322,
+        "closest_lon": 121.0325037836573,
+        "distance_m": 49.916
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.513358738889476,
+        "closest_lon": 121.0325316159023,
+        "distance_m": 59.984
+      }
+    ]
+  },
+  "P46": {
+    "center": {
+      "lat": 14.513900001913969,
+      "lon": 121.0435
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.513173000067464,
+        "closest_lon": 121.04273710322366,
+        "distance_m": 115.033
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.513257944984876,
+        "closest_lon": 121.04208701894551,
+        "distance_m": 168.058
+      }
+    ]
+  },
+  "P47": {
+    "center": {
+      "lat": 14.513900001913969,
+      "lon": 121.05439999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.513900166708458,
+        "closest_lon": 121.05441885772896,
+        "distance_m": 2.033
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.513900001913969,
+        "closest_lon": 121.05439999999999,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.513173699858267,
+        "closest_lon": 121.05368310176465,
+        "distance_m": 111.486
+      }
+    ]
+  },
+  "P48": {
+    "center": {
+      "lat": 14.513900001913969,
+      "lon": 121.06540000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.513902922892846,
+        "closest_lon": 121.0653649409616,
+        "distance_m": 3.793
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.513900001913969,
+        "closest_lon": 121.06540000000005,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P49": {
+    "center": {
+      "lat": 14.513900001913969,
+      "lon": 121.07639999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.513900001913969,
+        "closest_lon": 121.07639999999998,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.513987609636775,
+        "closest_lon": 121.07566102770656,
+        "distance_m": 80.241
+      }
+    ]
+  },
+  "P50": {
+    "center": {
+      "lat": 14.513900001913969,
+      "lon": 121.08729999999996
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.513900001913969,
+        "closest_lon": 121.08729999999996,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P51": {
+    "center": {
+      "lat": 14.53470000191686,
+      "lon": 120.99969999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.534859542229523,
+        "closest_lon": 120.99968633697151,
+        "distance_m": 17.714
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.53470000191686,
+        "closest_lon": 120.99969999999998,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P52": {
+    "center": {
+      "lat": 14.53470000191686,
+      "lon": 121.01059999999997
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.534592092331028,
+        "closest_lon": 121.01072832454797,
+        "distance_m": 18.271
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.53470000191686,
+        "closest_lon": 121.01059999999997,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P53": {
+    "center": {
+      "lat": 14.53470000191686,
+      "lon": 121.02160000000006
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.534775926810845,
+        "closest_lon": 121.02176633458285,
+        "distance_m": 19.798
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.535229301976788,
+        "closest_lon": 121.02194784128328,
+        "distance_m": 69.536
+      }
+    ]
+  },
+  "P54": {
+    "center": {
+      "lat": 14.53470000191686,
+      "lon": 121.03249999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.53470000191686,
+        "closest_lon": 121.03249999999998,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.5346855805543,
+        "closest_lon": 121.03250012111516,
+        "distance_m": 1.596
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.534415511306648,
+        "closest_lon": 121.03262370196569,
+        "distance_m": 34.184
+      }
+    ]
+  },
+  "P55": {
+    "center": {
+      "lat": 14.53470000191686,
+      "lon": 121.04350000000002
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.535321992499956,
+        "closest_lon": 121.04374826130501,
+        "distance_m": 73.838
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.535679570394183,
+        "closest_lon": 121.04328125481642,
+        "distance_m": 110.918
+      }
+    ]
+  },
+  "P56": {
+    "center": {
+      "lat": 14.53470000191686,
+      "lon": 121.0544
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.53470000191686,
+        "closest_lon": 121.0544,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.53486942281636,
+        "closest_lon": 121.05451377972697,
+        "distance_m": 22.4
+      }
+    ]
+  },
+  "P57": {
+    "center": {
+      "lat": 14.53470000191686,
+      "lon": 121.0654
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.53470000191686,
+        "closest_lon": 121.0654,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.534960068914366,
+        "closest_lon": 121.06546013226142,
+        "distance_m": 29.496
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.535049666950112,
+        "closest_lon": 121.06536657981918,
+        "distance_m": 38.856
+      }
+    ]
+  },
+  "P58": {
+    "center": {
+      "lat": 14.53470000191686,
+      "lon": 121.07640000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.534779110282287,
+        "closest_lon": 121.0764089061024,
+        "distance_m": 8.805
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.53470000191686,
+        "closest_lon": 121.07640000000005,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P59": {
+    "center": {
+      "lat": 14.53470000191686,
+      "lon": 121.08729999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.53470049097976,
+        "closest_lon": 121.0873568434015,
+        "distance_m": 6.127
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.535319802015096,
+        "closest_lon": 121.0872587410487,
+        "distance_m": 68.721
+      }
+    ]
+  },
+  "P60": {
+    "center": {
+      "lat": 14.53470000191686,
+      "lon": 121.09830000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.53470000191686,
+        "closest_lon": 121.09830000000001,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.5346875008117,
+        "closest_lon": 121.09839704712972,
+        "distance_m": 10.551
+      }
+    ]
+  },
+  "P61": {
+    "center": {
+      "lat": 14.555500001919741,
+      "lon": 120.98870000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.555459486694419,
+        "closest_lon": 120.98870034829223,
+        "distance_m": 4.483
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.555500001919741,
+        "closest_lon": 120.98870000000001,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P62": {
+    "center": {
+      "lat": 14.555500001919741,
+      "lon": 120.99969999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.555500001919741,
+        "closest_lon": 120.99969999999999,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.555503219422455,
+        "closest_lon": 121.00005709761903,
+        "distance_m": 38.486
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.556278132456718,
+        "closest_lon": 120.9998645585324,
+        "distance_m": 87.903
+      }
+    ]
+  },
+  "P63": {
+    "center": {
+      "lat": 14.555500001919741,
+      "lon": 121.01059999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.555501968076326,
+        "closest_lon": 121.01081939736179,
+        "distance_m": 23.645
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.555500001919741,
+        "closest_lon": 121.01059999999998,
+        "distance_m": 0.0
+      }
+    ]
+  },
+  "P64": {
+    "center": {
+      "lat": 14.555500001919741,
+      "lon": 121.02160000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.55537602532248,
+        "closest_lon": 121.02130453285231,
+        "distance_m": 34.671
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.555497358379844,
+        "closest_lon": 121.02130345125224,
+        "distance_m": 31.96
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.555466386854427,
+        "closest_lon": 121.02130372734331,
+        "distance_m": 32.145
+      }
+    ]
+  },
+  "P65": {
+    "center": {
+      "lat": 14.555500001919741,
+      "lon": 121.03250000000007
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.555560272151563,
+        "closest_lon": 121.03243642207055,
+        "distance_m": 9.561
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.556645152301263,
+        "closest_lon": 121.03249036937278,
+        "distance_m": 126.709
+      }
+    ]
+  },
+  "P66": {
+    "center": {
+      "lat": 14.555500001919741,
+      "lon": 121.04350000000002
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.555112227764727,
+        "closest_lon": 121.04366674813964,
+        "distance_m": 46.516
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.556195217667968,
+        "closest_lon": 121.0434941862994,
+        "distance_m": 76.924
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.556373426930097,
+        "closest_lon": 121.04319172941901,
+        "distance_m": 102.191
+      }
+    ]
+  },
+  "P67": {
+    "center": {
+      "lat": 14.555500001919741,
+      "lon": 121.05440000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.55550022862728,
+        "closest_lon": 121.0544258650431,
+        "distance_m": 2.788
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.555653778381345,
+        "closest_lon": 121.05442451917149,
+        "distance_m": 17.218
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.556565896068502,
+        "closest_lon": 121.05543711748692,
+        "distance_m": 162.484
+      }
+    ]
+  },
+  "P68": {
+    "center": {
+      "lat": 14.555500001919741,
+      "lon": 121.06540000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.55549977556058,
+        "closest_lon": 121.0653740284427,
+        "distance_m": 2.799
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.555500001919741,
+        "closest_lon": 121.06540000000001,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.555500584121,
+        "closest_lon": 121.06546680267411,
+        "distance_m": 7.2
+      }
+    ]
+  },
+  "P69": {
+    "center": {
+      "lat": 14.555500001919741,
+      "lon": 121.0764
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.55538452392448,
+        "closest_lon": 121.07650881236344,
+        "distance_m": 17.343
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.555287293703895,
+        "closest_lon": 121.07567461958593,
+        "distance_m": 81.64
+      }
+    ]
+  },
+  "P70": {
+    "center": {
+      "lat": 14.555500001919741,
+      "lon": 121.08730000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.555563114560005,
+        "closest_lon": 121.0872699876321,
+        "distance_m": 7.696
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.555500001919741,
+        "closest_lon": 121.08730000000001,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.555728668400064,
+        "closest_lon": 121.08541291355306,
+        "distance_m": 204.938
+      }
+    ]
+  },
+  "P71": {
+    "center": {
+      "lat": 14.555500001919741,
+      "lon": 121.0983
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.555381257653316,
+        "closest_lon": 121.09821989364094,
+        "distance_m": 15.721
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.555496026639153,
+        "closest_lon": 121.09826706234102,
+        "distance_m": 3.577
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.555562319926668,
+        "closest_lon": 121.09825906133466,
+        "distance_m": 8.186
+      }
+    ]
+  },
+  "P72": {
+    "center": {
+      "lat": 14.576300001922602,
+      "lon": 120.97769999999996
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.576573765456885,
+        "closest_lon": 120.97771899429718,
+        "distance_m": 30.36
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.576667336106691,
+        "closest_lon": 120.97808928387494,
+        "distance_m": 58.409
+      }
+    ]
+  },
+  "P73": {
+    "center": {
+      "lat": 14.576300001922602,
+      "lon": 120.98869999999992
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.576300001922602,
+        "closest_lon": 120.98869999999992,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.576035745520194,
+        "closest_lon": 120.98867263324568,
+        "distance_m": 29.387
+      }
+    ]
+  },
+  "P74": {
+    "center": {
+      "lat": 14.576300001922602,
+      "lon": 120.99969999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.576582221157793,
+        "closest_lon": 120.99969758393392,
+        "distance_m": 31.227
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.576300001922602,
+        "closest_lon": 120.99969999999998,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.575770668022908,
+        "closest_lon": 120.99990217973375,
+        "distance_m": 62.489
+      }
+    ]
+  },
+  "P75": {
+    "center": {
+      "lat": 14.576300001922602,
+      "lon": 121.01059999999988
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.576403916161546,
+        "closest_lon": 121.01056698155274,
+        "distance_m": 12.036
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.576300001922602,
+        "closest_lon": 121.01059999999988,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.57631302906395,
+        "closest_lon": 121.01205239515855,
+        "distance_m": 156.516
+      }
+    ]
+  },
+  "P76": {
+    "center": {
+      "lat": 14.576300001922602,
+      "lon": 121.02159999999992
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.576434325191705,
+        "closest_lon": 121.0215988627118,
+        "distance_m": 14.863
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.576434956154078,
+        "closest_lon": 121.02167338466202,
+        "distance_m": 16.897
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.576533956302779,
+        "closest_lon": 121.02269316887022,
+        "distance_m": 120.61
+      }
+    ]
+  },
+  "P77": {
+    "center": {
+      "lat": 14.576300001922602,
+      "lon": 121.03249999999994
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.576300001922602,
+        "closest_lon": 121.03249999999994,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.57625552648198,
+        "closest_lon": 121.03253119571886,
+        "distance_m": 5.96
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.57607402128231,
+        "closest_lon": 121.03244001861441,
+        "distance_m": 25.825
+      }
+    ]
+  },
+  "P78": {
+    "center": {
+      "lat": 14.576300001922602,
+      "lon": 121.04350000000001
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.576711235168677,
+        "closest_lon": 121.04375460072005,
+        "distance_m": 53.132
+      }
+    ]
+  },
+  "P79": {
+    "center": {
+      "lat": 14.576300001922602,
+      "lon": 121.05439999999992
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.576166235317384,
+        "closest_lon": 121.05424458454137,
+        "distance_m": 22.35
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.57616855294241,
+        "closest_lon": 121.0545229324174,
+        "distance_m": 19.673
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.574987651023136,
+        "closest_lon": 121.0537909861958,
+        "distance_m": 159.346
+      }
+    ]
+  },
+  "P80": {
+    "center": {
+      "lat": 14.576300001922602,
+      "lon": 121.06539999999993
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.576300001922602,
+        "closest_lon": 121.06539999999993,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.576299811455385,
+        "closest_lon": 121.06537817884642,
+        "distance_m": 2.352
+      }
+    ]
+  },
+  "P81": {
+    "center": {
+      "lat": 14.576300001922602,
+      "lon": 121.07639999999994
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.57626176242956,
+        "closest_lon": 121.07669892126859,
+        "distance_m": 32.488
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.57662551084477,
+        "closest_lon": 121.07697413683226,
+        "distance_m": 71.588
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.575632266180477,
+        "closest_lon": 121.077075544652,
+        "distance_m": 103.72
+      }
+    ]
+  },
+  "P82": {
+    "center": {
+      "lat": 14.576300001922602,
+      "lon": 121.08729999999996
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.57562186675942,
+        "closest_lon": 121.08681863754235,
+        "distance_m": 91.216
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.576300001922602,
+        "closest_lon": 121.08729999999996,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.57752484695622,
+        "closest_lon": 121.08745175176456,
+        "distance_m": 136.506
+      }
+    ]
+  },
+  "P83": {
+    "center": {
+      "lat": 14.576300001922602,
+      "lon": 121.09829999999991
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.576439458451723,
+        "closest_lon": 121.0984104992859,
+        "distance_m": 19.49
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.576166851702371,
+        "closest_lon": 121.09822725509827,
+        "distance_m": 16.688
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.576440213513514,
+        "closest_lon": 121.09850328443657,
+        "distance_m": 26.843
+      }
+    ]
+  },
+  "P84": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 120.96680000000009
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.59753707984332,
+        "closest_lon": 120.96713459401641,
+        "distance_m": 60.32
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.59644982908413,
+        "closest_lon": 120.96680566459317,
+        "distance_m": 71.941
+      }
+    ]
+  },
+  "P85": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 120.9777
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.59708668848441,
+        "closest_lon": 120.97770011537759,
+        "distance_m": 1.473
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.597084424624857,
+        "closest_lon": 120.97743890095995,
+        "distance_m": 28.186
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.59672781395835,
+        "closest_lon": 120.97799892564461,
+        "distance_m": 52.281
+      }
+    ]
+  },
+  "P86": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 120.98870000000002
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.597362469114659,
+        "closest_lon": 120.98869773778289,
+        "distance_m": 29.042
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.597100001925492,
+        "closest_lon": 120.98870000000002,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.598170618019552,
+        "closest_lon": 120.9881004118332,
+        "distance_m": 134.93
+      }
+    ]
+  },
+  "P87": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 120.99970000000002
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.597100088221822,
+        "closest_lon": 120.99970954746834,
+        "distance_m": 1.029
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.597100001925492,
+        "closest_lon": 120.99970000000002,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.597099249508348,
+        "closest_lon": 120.99961675953932,
+        "distance_m": 8.969
+      }
+    ]
+  },
+  "P88": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 121.01060000000004
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.597100001925492,
+        "closest_lon": 121.01060000000004,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.597188458143101,
+        "closest_lon": 121.01056585953559,
+        "distance_m": 10.456
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.596373630460707,
+        "closest_lon": 121.0103875927953,
+        "distance_m": 83.564
+      }
+    ]
+  },
+  "P89": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 121.02160000000002
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.597311564074417,
+        "closest_lon": 121.02185807693586,
+        "distance_m": 36.348
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.597401138725047,
+        "closest_lon": 121.02176447952932,
+        "distance_m": 37.739
+      }
+    ]
+  },
+  "P90": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 121.03250000000003
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.597100001925492,
+        "closest_lon": 121.03250000000003,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.597100282903991,
+        "closest_lon": 121.03253160544921,
+        "distance_m": 3.406
+      }
+    ]
+  },
+  "P91": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 121.04350000000008
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.597402693230904,
+        "closest_lon": 121.04338622706082,
+        "distance_m": 35.664
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.598489376171248,
+        "closest_lon": 121.04365501371598,
+        "distance_m": 154.632
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.59630667080733,
+        "closest_lon": 121.04200395752919,
+        "distance_m": 183.547
+      }
+    ]
+  },
+  "P92": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 121.05440000000004
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.597132790203688,
+        "closest_lon": 121.05433877017674,
+        "distance_m": 7.529
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.597132016540066,
+        "closest_lon": 121.05424597877649,
+        "distance_m": 16.969
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.596222196259795,
+        "closest_lon": 121.05351159526231,
+        "distance_m": 136.369
+      }
+    ]
+  },
+  "P93": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 121.06540000000005
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.59704001946886,
+        "closest_lon": 121.06491860579517,
+        "distance_m": 52.293
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.597141151595,
+        "closest_lon": 121.06621690401415,
+        "distance_m": 88.138
+      }
+    ]
+  },
+  "P94": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 121.07639999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.597223980550961,
+        "closest_lon": 121.07623847828654,
+        "distance_m": 22.16
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.597102639731068,
+        "closest_lon": 121.07670352933175,
+        "distance_m": 32.706
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.596044656216417,
+        "closest_lon": 121.07569193653273,
+        "distance_m": 139.483
+      }
+    ]
+  },
+  "P95": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 121.08730000000007
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.597100654336922,
+        "closest_lon": 121.08737549147222,
+        "distance_m": 8.134
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.596319214607195,
+        "closest_lon": 121.08710384630464,
+        "distance_m": 88.938
+      }
+    ]
+  },
+  "P96": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 121.09830000000002
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.597133687003081,
+        "closest_lon": 121.09829972549923,
+        "distance_m": 3.727
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.597224052677628,
+        "closest_lon": 121.09829898910031,
+        "distance_m": 13.726
+      }
+    ]
+  },
+  "P97": {
+    "center": {
+      "lat": 14.597100001925492,
+      "lon": 121.10919999999999
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 3,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.597131750696452,
+        "closest_lon": 121.10918329421287,
+        "distance_m": 3.947
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.597100001925492,
+        "closest_lon": 121.10919999999999,
+        "distance_m": 0.0
+      },
+      {
+        "Var": 3.0,
+        "closest_lat": 14.596138477306159,
+        "closest_lon": 121.10928458042748,
+        "distance_m": 106.777
+      }
+    ]
+  },
+  "P98": {
+    "center": {
+      "lat": 14.617900001928398,
+      "lon": 120.96679999999998
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 1,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.617983836412671,
+        "closest_lon": 120.96679926860094,
+        "distance_m": 9.276
+      }
+    ]
+  },
+  "P99": {
+    "center": {
+      "lat": 14.617900001928398,
+      "lon": 120.97770000000007
+    },
+    "radius_m": 211.46869737089298,
+    "var_matches_count": 2,
+    "closest_points": [
+      {
+        "Var": 1.0,
+        "closest_lat": 14.617900710992831,
+        "closest_lon": 120.9777774809838,
+        "distance_m": 8.348
+      },
+      {
+        "Var": 2.0,
+        "closest_lat": 14.617900001928398,
+        "closest_lon": 120.97770000000007,
+        "distance_m": 0.0
+      }
+    ]
+  }
+}

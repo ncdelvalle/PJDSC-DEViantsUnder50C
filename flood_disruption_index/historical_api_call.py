@@ -23,8 +23,8 @@ from datetime import datetime, timedelta
 
 # === CONFIGURATION ===
 API_KEY =  os.getenv("OWM_API_KEY")
-INPUT_CSV = "classified_points.csv"
-OUTPUT_CSV = "precipitation_only.csv"
+INPUT_CSV = "processed_data/hist_base_points.csv"
+OUTPUT_CSV = "raw_data/ncr_1to6_25_C.csv"
 
 # Date range for 6-month batch
 start_date = datetime(2024, 7, 31)
