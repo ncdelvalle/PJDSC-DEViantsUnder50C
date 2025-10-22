@@ -1,2 +1,3 @@
-Regional mean (μ): 4.8556226415094335
-Regional std (σ): 13.175385300092982
+Regional mean (μ): 7.546862170087977
+Regional std (σ): 15.797711959587314
+
