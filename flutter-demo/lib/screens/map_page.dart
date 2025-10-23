@@ -81,18 +81,31 @@ class _MyStatefulWidgetState extends State<MapPage> {
     final pointAnnotationManager = await mapboxMapController?.annotations.createPointAnnotationManager();
 
     // for marker image
-    final Uint8List imageData = await loadHQMarkerImage();
+    final Uint8List imageData1 = await loadHQMarkerImage1();
     mp.PointAnnotationOptions pointAnnotationOptions =
       mp.PointAnnotationOptions(
-        image: imageData,
+        image: imageData1,
         iconSize: 0.3,
         geometry: mp.Point(
-          coordinates: mp.Position(121.0437, 14.6760)
+          coordinates: mp.Position(121.074593, 14.642448)
         )
       );
 
       pointAnnotationManager?.create(pointAnnotationOptions);
+
+    final Uint8List imageData2 = await loadHQMarkerImage2();
+    mp.PointAnnotationOptions pointAnnotationOptions2 =
+      mp.PointAnnotationOptions(
+        image: imageData2,
+        iconSize: 0.3,
+        geometry: mp.Point(
+          coordinates: mp.Position(121.071134, 14.647441)
+        )
+      );
+
+      pointAnnotationManager?.create(pointAnnotationOptions2);
   }
+  
 
   Future<void> _setupPositionTracking() async {
     bool serviceEnabled;
@@ -142,8 +155,13 @@ class _MyStatefulWidgetState extends State<MapPage> {
   }
 
   // basically for loading image for marker
-  Future<Uint8List> loadHQMarkerImage() async {
-    var byteData = await rootBundle.load("assets/icons/small_driver.png");
+  Future<Uint8List> loadHQMarkerImage1() async {
+    var byteData = await rootBundle.load("assets/icons/green_marker.png");
+    return byteData.buffer.asUint8List();
+  }
+
+  Future<Uint8List> loadHQMarkerImage2() async {
+    var byteData = await rootBundle.load("assets/icons/orange_marker.png");
     return byteData.buffer.asUint8List();
   }
 
