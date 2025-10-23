@@ -161,7 +161,7 @@ class _MyStatefulWidgetState extends State<MapPage> {
   }
 
   Future<Uint8List> loadHQMarkerImage2() async {
-    var byteData = await rootBundle.load("assets/icons/orange_marker.png");
+    var byteData = await rootBundle.load("assets/icons/yellow_marker.png");
     return byteData.buffer.asUint8List();
   }
 
