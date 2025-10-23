@@ -155,7 +155,7 @@ The Flood Disruption Index (FDI) combines the hazard intensity (from Project Noa
 - ✅ **Flood Disruption Index (FDI)** per location point  
 - ✅ **FDI classification map** (Low / Medium / High risk)
 
-## 🔧 Implementation Note: Integration Between Python and Flutter
+## 🔧 IV. Implementation Note: Integration Between Python and Flutter
 The Standardized Precipitation Index (SPI) and Flood Disruption Index (FDI) computations are implemented directly inside the Flutter application, ensuring real-time calculation and visualization within the mobile or web environment.
 
 However, a crucial preprocessing step—the sampling of geographic points from routes (used to associate FDI values with specific locations)—cannot be performed natively in Flutter due to the lack of advanced geospatial and scientific libraries (e.g., geopandas, shapely, or rasterio).
