@@ -4,25 +4,19 @@ import 'package:percent_indicator/percent_indicator.dart';
 import 'package:pie_chart/pie_chart.dart';
 import 'package:pjdsc_project/components/percentage.dart';
 
-class CRI_Drawer extends StatefulWidget {
-  const CRI_Drawer({super.key});
+class PullupDrawer extends StatefulWidget {
+  const PullupDrawer({super.key});
 
   @override
-  State<CRI_Drawer> createState() => _CRI_DrawerState();
+  State<PullupDrawer> createState() => _PullupDrawerState();
 }
 
-class _CRI_DrawerState extends State<CRI_Drawer> {
+class _PullupDrawerState extends State<PullupDrawer> {
   //FirebaseAuthAPI authService = FirebaseAuthAPI
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.white,
-        title: const Text("The Map is here bro"),
-      ),
-      body: Stack(
-        children: [
+    return
           DraggableScrollableSheet(
             initialChildSize: 0.25,
             minChildSize: 0.25,
@@ -94,10 +88,7 @@ class _CRI_DrawerState extends State<CRI_Drawer> {
                 ),
               );
             },
-          ),
-        ],
-      ),
-    );
+          );
   }
 
   Widget createStats(String label, double stat) {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pjdsc_project/screens/routes_screen.dart';
+import '/screens/map_page.dart';
+import '/screens/routes_screen.dart';
 import 'package:provider/provider.dart';
 import '../providers/auth_provider.dart';
 import 'signin_page.dart';
@@ -18,6 +19,6 @@ class HomePage extends StatelessWidget {
     }
 
     // If user is signed in, go to ExpensePage; otherwise, go to SignIn page
-    return user != null ? const Routes_Screen() : const SignIn();
+    return user != null ? MapPage() : const SignIn();
   }
 }

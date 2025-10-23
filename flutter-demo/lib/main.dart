@@ -9,8 +9,12 @@ import 'providers/route_data_provider.dart';
 import 'screens/home_page.dart';
 import 'screens/signup_page.dart';
 import 'screens/route_data_page.dart';
+import 'screens/map_page.dart';
 
 import 'screens/routes_screen.dart';
+
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 
 // Entry point of the application
 void main() async {
@@ -18,6 +22,7 @@ void main() async {
 
   // Initializes Firebase with default options
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await setup();
 
   // Wraps the app in providers to manage app-wide state
   runApp(
@@ -32,6 +37,13 @@ void main() async {
       child: const MyApp(),
     ),
   );
+}
+
+Future<void> setup() async {
+  await dotenv.load(
+    fileName: ".env",
+  );
+  MapboxOptions.setAccessToken(dotenv.env["MAPBOX_ACCESS_TOKEN"]!);
 }
 
 class MyApp extends StatelessWidget {
@@ -50,6 +62,7 @@ class MyApp extends StatelessWidget {
         '/routeData': (context) =>
             const RouteDataPage(), // Route to Route Data screen
         '/routes': (context) => const Routes_Screen(),
+        '/map': (context) => MapPage()
       },
     );
   }
