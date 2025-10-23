@@ -165,3 +165,48 @@ However, a crucial preprocessing step—the sampling of geographic points from r
 To address this limitation:
 - The point sampling and spatial processing are handled by a Python backend program, which performs geographic interpolation, spatial joins, and dataset preparation.
 - This Python process is hosted on a cloud service, allowing the Flutter frontend to request processed spatial data through an API endpoint before applying SPI and FDI computations.
+
+---
+
+## 🔧 IV. Implementation Note: Integration Between Python and Flutter
+
+- Python backend handles **geospatial preprocessing** (sampling, interpolation, spatial joins).  
+- Flutter frontend performs **CRI, SPI, and FDI computations** using preprocessed data.  
+- Python is hosted on a **cloud service** to provide API endpoints for Flutter requests.
+
+---
+
+## 🛠️ V. Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Backend / Data Processing | Python 3.11+, pandas, numpy |
+| APIs | OpenWeatherMap API |
+| Mobile / Frontend | Flutter 3.13+, Dart |
+| Data Storage | CSV, JSON |
+| Visualization | Flutter charts, maps (e.g., `flutter_map` or `google_maps_flutter`) |
+
+---
+
+## 💻 VI. Installation
+
+**Clone the repository**
+```bash
+git clone https://github.com/<username>/PJDSC-DEViantsUnder50C.git
+cd PJDSC-DEViantsUnder50C
+
+---
+
+## ▶️ Execution: Flutter Frontend
+
+> Main execution happens here. Flutter handles CRI, SPI, and FDI computations and visualization.
+
+```bash
+# Enter Flutter project directory
+cd flutter_app
+
+# Get dependencies
+flutter pub get
+
+# Run on connected device or emulator
+flutter run
