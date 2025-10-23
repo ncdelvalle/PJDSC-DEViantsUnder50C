@@ -38,29 +38,19 @@ Performs the following steps:
 
 The Shannon Entropy weight is calculated as:
 
-\[
-k = \frac{1}{\ln(n)}
-\]
-
-\[
-p_{ij} = \frac{x_{ij}}{\sum_{i=1}^{m} x_{ij}}
-\]
-
-\[
-e_j = -k \sum_{i=1}^{m} p_{ij} \ln(p_{ij})
-\]
+<img width="90" height="51" alt="CodeCogsEqn (9)" src="https://github.com/user-attachments/assets/bb2de0c3-5e1d-4178-95a0-c92daf9e25c8" />
+<img width="134" height="46" alt="CodeCogsEqn (8)" src="https://github.com/user-attachments/assets/240b1618-bd6b-4863-969f-d41f456ff614" />
+<img width="199" height="60" alt="CodeCogsEqn (7)" src="https://github.com/user-attachments/assets/e77687d6-2f8c-4c4c-bc24-27c0bb7e8046" />
 
 where:  
 - \( n \) = number of indicators  
 - \( m \) = number of samples  
-- \( x_{ij} \) = normalized value of the \( j^{th} \) metric at point \( i \)  
-- \( e_j \) = entropy value of the \( j^{th} \) metric  
+- \( x<sub>ij</sub> \) = normalized value of the \( j<sup>th</sup>} \) metric at point \( i \)  
+- \( e<sub>j</sub> \) = entropy value of the \( j<sup>th</sup> \) metric  
 
 The **weight** of each metric is then computed as:
 
-\[
-w_j = \frac{1 - e_j}{\sum_{j=1}^{n} (1 - e_j)}
-\]
+<img width="177" height="54" alt="CodeCogsEqn (6)" src="https://github.com/user-attachments/assets/b76600d9-9c99-45af-b852-116deb07099f" />
 
 ---
 
@@ -77,14 +67,12 @@ These outputs are stored as CSV or JSON files for downstream analysis.
 
 The final **Climate Risk Index (CRI)** is computed within the **Flutter application** using the **Weighted Arithmetic Mean Index** formula:
 
-\[
-CRI_i = \frac{\sum_{j=1}^{n} (w_j \times x_{ij})}{\sum_{j=1}^{n} w_j}
-\]
+<img width="222" height="59" alt="CodeCogsEqn (5)" src="https://github.com/user-attachments/assets/b7f3d906-852f-4f58-893f-f28a08cdc2e1" />
 
 where:  
-- \( CRI_i \) = Climate Risk Index of sample point \( i \)  
-- \( w_j \) = Shannon entropy weight of metric \( j \)  
-- \( x_{ij} \) = normalized value of metric \( j \) at point \( i \)
+- \( CRI<sub>i</sub> \) = Climate Risk Index of sample point \( i \)  
+- \( w<sub>j</sub> \) = Shannon entropy weight of metric \( j \)  
+- \( x<sub>ij</sub> \) = normalized value of metric \( j \) at point \( i \)
 
 Higher **CRI** values indicate greater climate-related risk intensity at that location.
 
