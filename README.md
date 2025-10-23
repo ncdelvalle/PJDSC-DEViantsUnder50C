@@ -122,6 +122,7 @@ This simulates semi-realistic but diverse precipitation situations across the re
 Computes the **Standardized Precipitation Index (SPI)** to standardize rainfall anomalies:
 
 <img width="130" height="45" alt="CodeCogsEqn (10)" src="https://github.com/user-attachments/assets/96b0d5d2-f394-41ec-bf2c-72e1f4e239b2" />
+
 - \( w<sub>l</sub> \) = weights for low, medium, and high levels  
 - \( γ \) = balance between AND/OR logic 
 - \( H<sub>l</sub> \) = Hazard Level 
@@ -140,6 +141,7 @@ Classification:
 
 ### g. Fuzzy Fusion of SPI and Hazard — `fdi_fuzzy_fusion.py`
 The Flood Disruption Index (FDI) combines the hazard intensity (from Project Noah data) and precipitation potential (from normalized SPI) using fuzzy logic. Each variable is transformed into “low”, “medium”, and “high” fuzzy memberships, then merged using a weighted fuzzy fusion formula. 
+
 <img width="533" height="50" alt="CodeCogsEqn (12)" src="https://github.com/user-attachments/assets/1051698d-4718-40bc-97b0-154c35334eac" />
 
 - \( p \) = current precipitation total  
