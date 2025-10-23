@@ -76,3 +76,90 @@ where:
 
 Higher **CRI** values indicate greater climate-related risk intensity at that location.
 
+---
+# 🌊 Flood Risk Index (FRI)
+
+This project computes a **Flood Risk Index** for the National Capital Region (NCR), Philippines, by combining precipitation-based flood potential with spatial hazard classifications.  
+It integrates both **historical precipitation trends** and **forecasted rainfall conditions** to estimate potential flood risk intensity.
+
+---
+
+## 🗂️ I. Datasets
+
+### a. OpenWeatherMap Historical Records  
+- Historical precipitation samples covering **July 2024 to June 2025**  
+- Sampled from **30 coordinate points** across Metro Manila
+
+### b. OpenWeatherMap Forecast Data  
+- **Current**, **48-hour**, and **hourly forecast** precipitation from the OWM API  
+
+### c. Project Noah NCR Dataset  
+- Transformed from shapefile (`.shp`) to **GeoJSON** format  
+- Used to define baseline **risk zones** (no risk, low, moderate, high)
+
+---
+
+## ⚙️ II. Processes
+
+### a. OpenWeatherMap API Calls  
+- **`historical_api_call.py`** — Fetches past precipitation data for the 30 sample points  
+- **`current_forecast_api_call.py`** — Collects real-time and forecast precipitation data from OWM
+
+### b. Historical Statistics — `historical_precip_stats.py`
+Computes the **regional mean (μ)** and **standard deviation (σ)** of precipitation for the July 2024–June 2025 period. These serve as parameters for the Standardized Precipitation Index (SPI) and synthetic dataset generation.
+
+### c. Risk-Based Sampling — `point_sampling.py`
+Generates sample points located in **no**, **low**, **moderate**, and **high-risk** areas based on the Project Noah GeoJSON flood zones.
+
+### d. Balanced Dataset Creation — `clean_sample_points.py`
+Filters and balances sampled points to achieve a **66:34:40:60 ratio** for the four risk classifications to ensure model representativeness.
+
+### e. Synthetic Data Generation — `synthetic_precip.py`
+Since forecasted and current precipitation data alone are insufficient to represent edge-case rainfall scenarios, synthetic data are generated using the regional mean and standard deviation derived from historical records.
+This simulates semi-realistic but diverse precipitation situations across the region. Synthetic precipitation values are produced using a normal distribution centered around the regional mean.
+
+### f. SPI Calculation — `compute_spi.py`
+Computes the **Standardized Precipitation Index (SPI)** to standardize rainfall anomalies:
+
+<img width="130" height="45" alt="CodeCogsEqn (10)" src="https://github.com/user-attachments/assets/96b0d5d2-f394-41ec-bf2c-72e1f4e239b2" />
+- \( w<sub>l</sub> \) = weights for low, medium, and high levels  
+- \( γ \) = balance between AND/OR logic 
+- \( H<sub>l</sub> \) = Hazard Level 
+- \( S<sub>l</sub> \) = SPI Level
+
+Values are **clipped** to the range \([-3, 3]\) for outlier handling, then **normalized** to [0,1]
+
+Classification:
+| SPI Range | Category |
+|------------|-----------|
+| ≤ -1.5     | Dry |
+| (-1.5, -0.5] | Slightly Dry |
+| (-0.5, 0.5] | Normal |
+| (0.5, 1.5]  | Wet |
+| > 1.5      | Very Wet |
+
+### g. Fuzzy Fusion of SPI and Hazard — `fdi_fuzzy_fusion.py`
+The Flood Disruption Index (FDI) combines the hazard intensity (from Project Noah data) and precipitation potential (from normalized SPI) using fuzzy logic. Each variable is transformed into “low”, “medium”, and “high” fuzzy memberships, then merged using a weighted fuzzy fusion formula. 
+<img width="533" height="50" alt="CodeCogsEqn (12)" src="https://github.com/user-attachments/assets/1051698d-4718-40bc-97b0-154c35334eac" />
+
+- \( p \) = current precipitation total  
+- \( μ \) = regional mean for precipitation
+- \( σ \) = regional standard deviation for precipitation
+
+---
+
+## 📈 III. Key Outputs
+
+- ✅ **Regional mean (μ) and standard deviation (σ)** for NCR precipitation  
+- ✅ **Normalized SPI values** and classifications  
+- ✅ **Flood Disruption Index (FDI)** per location point  
+- ✅ **FDI classification map** (Low / Medium / High risk)
+
+## 🔧 Implementation Note: Integration Between Python and Flutter
+The Standardized Precipitation Index (SPI) and Flood Disruption Index (FDI) computations are implemented directly inside the Flutter application, ensuring real-time calculation and visualization within the mobile or web environment.
+
+However, a crucial preprocessing step—the sampling of geographic points from routes (used to associate FDI values with specific locations)—cannot be performed natively in Flutter due to the lack of advanced geospatial and scientific libraries (e.g., geopandas, shapely, or rasterio).
+
+To address this limitation:
+- The point sampling and spatial processing are handled by a Python backend program, which performs geographic interpolation, spatial joins, and dataset preparation.
+- This Python process is hosted on a cloud service, allowing the Flutter frontend to request processed spatial data through an API endpoint before applying SPI and FDI computations.
