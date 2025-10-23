@@ -12,6 +12,7 @@ import 'screens/route_data_page.dart';
 import 'screens/map_page.dart';
 
 import 'screens/routes_screen.dart';
+import 'screens/safety_screen.dart';
 
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
@@ -62,7 +63,8 @@ class MyApp extends StatelessWidget {
         '/routeData': (context) =>
             const RouteDataPage(), // Route to Route Data screen
         '/routes': (context) => const Routes_Screen(),
-        '/map': (context) => MapPage()
+        '/map': (context) => MapPage(),
+        '/safety': (context) => Safety_Screen()
       },
     );
   }
