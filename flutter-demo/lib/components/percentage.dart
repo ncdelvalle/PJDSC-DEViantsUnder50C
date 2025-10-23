@@ -52,7 +52,7 @@ class _PercentageTileState extends State<PercentageTile> {
           SizedBox(height: 10),
           LinearPercentIndicator(
             lineHeight: 10,
-            width: 375,
+            width: MediaQuery.of(context).size.width - 60,
             barRadius: Radius.circular(10),
             percent: widget.percentage,
             progressColor: Color.fromARGB(255, 228, 98, 18),

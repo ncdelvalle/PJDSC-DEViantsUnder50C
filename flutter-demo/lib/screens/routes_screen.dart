@@ -284,7 +284,7 @@ class _Routes_ScreenState extends State<Routes_Screen> {
             children: [
               Icon(Icons.alt_route, color: Colors.white),
               Text(
-                " Select Route",
+                "Select Route",
                 style: TextStyle(
                   color: Colors.white,
                   fontFamily: "Lexend",

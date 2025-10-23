@@ -190,34 +190,102 @@ class _Safety_ScreenState extends State<Safety_Screen> {
     );
   }
 
-  _createOptimalWorkingHours() {
+  Widget _createOptimalWorkingHours() {
+    final List<Map<String, dynamic>> timeSlots = [
+      {
+        "time": "6:00 AM – 9:00 AM",
+        "label": "Optimal",
+        "color": Colors.green,
+        "description": "Cool temperatures, good air quality.",
+      },
+      {
+        "time": "9:00 AM – 3:00 PM",
+        "label": "Caution",
+        "color": Colors.amber,
+        "description": "High heat stress, moderate air quality.",
+      },
+      {
+        "time": "3:00 PM – 6:00 PM",
+        "label": "Avoid",
+        "color": Colors.red,
+        "description": "Peak heat, poor air quality.",
+      },
+      {
+        "time": "6:00 PM – 10:00 PM",
+        "label": "Good",
+        "color": Colors.blue,
+        "description": "Cooling temperatures, improving air quality.",
+      },
+    ];
+
     return Card(
       child: Container(
         width: 450,
-
         decoration: boxDecor(),
+        padding: const EdgeInsets.all(10),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Padding(
-              padding: EdgeInsetsGeometry.fromLTRB(10, 10, 10, 0),
-              child: Row(
-                children: [
-                  Icon(
-                    Icons.gps_fixed,
-                    color: Color.fromARGB(255, 243, 112, 60),
-                    size: 24.0,
+            Row(
+              children: [
+                Icon(
+                  Icons.gps_fixed,
+                  color: Color.fromARGB(255, 243, 112, 60),
+                  size: 24.0,
+                ),
+                SizedBox(width: 10),
+                Text(
+                  "Optimal Working Hours",
+                  style: TextStyle(
+                    fontFamily: "Lexend",
+                    fontSize: 20,
+                    color: Color.fromARGB(255, 58, 58, 58),
+                    fontWeight: FontWeight.bold,
                   ),
-                  SizedBox(width: 10),
-                  Text(
-                    "Route Planning",
-                    style: TextStyle(
-                      fontFamily: "Lexend",
-                      fontSize: 20,
-                      color: const Color.fromARGB(255, 58, 58, 58),
-                      fontWeight: FontWeight.bold,
-                    ),
+                ),
+              ],
+            ),
+            SizedBox(height: 10),
+            ...timeSlots.map(
+              (slot) => Padding(
+                padding: const EdgeInsets.symmetric(vertical: 6),
+                child: Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                    color: slot["color"].withOpacity(0.1),
+                    border: Border.all(color: slot["color"], width: 1.5),
+                    borderRadius: BorderRadius.circular(8),
                   ),
-                ],
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        slot["time"],
+                        style: TextStyle(
+                          fontFamily: "Lexend",
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: slot["color"],
+                        ),
+                      ),
+                      SizedBox(height: 4),
+                      Text(
+                        slot["label"],
+                        style: TextStyle(
+                          fontSize: 14,
+                          fontWeight: FontWeight.w600,
+                          color: slot["color"],
+                        ),
+                      ),
+                      SizedBox(height: 4),
+                      Text(
+                        slot["description"],
+                        style: TextStyle(fontSize: 14, color: Colors.black87),
+                      ),
+                    ],
+                  ),
+                ),
               ),
             ),
           ],
@@ -239,7 +307,7 @@ class _Safety_ScreenState extends State<Safety_Screen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              "Optimal Working Hours",
+              "Safety Recommendations",
               style: TextStyle(
                 fontFamily: "Lexend",
                 fontSize: 20,

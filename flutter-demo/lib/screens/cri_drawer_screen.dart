@@ -199,7 +199,7 @@ class _CRI_DrawerState extends State<CRI_Drawer> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "7.2/10",
+                    "7.2/10", //CRI REPLACE WITH COMPUTED
                     style: TextStyle(
                       fontFamily: "Lexend",
                       fontSize: 35,
